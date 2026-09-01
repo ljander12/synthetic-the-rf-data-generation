@@ -39,25 +39,9 @@ addpath("utils")
 
 %% ---------------- Parameters for shear-wave simulation ------------------
 
-shear_params.xrange = 100e-3;  % Length [m]
-shear_params.zrange = 95e-3;   % Height [m]
-shear_params.yrange = 120e-3;  % Width [m]
+phantom_case = 'large_inclusions';
 
-shear_params.cx1 = 0;
-shear_params.cy1 = -20e-3;
-shear_params.cz1 = 15e-3;
-shear_params.cr1 = 5e-3;
-
-shear_params.cx2 = 0;
-shear_params.cy2 = 20e-3;
-shear_params.cz2 = 35e-3;
-shear_params.cr2 = 10e-3;
-
-shear_params.c_shear_bkg = 2.32;    % Background shear-wave speed [m/s]
-shear_params.c_shear_incl = 4.67;   % Inclusion shear-wave speed [m/s]
-shear_params.source_freq = 200;     % Shaker frequency [Hz]
-shear_params.rho0 = 1079;           % Medium density [kg/m3]
-
+shear_params = get_phantom_params(phantom_case);
 %% -------- Parameters for ultrasound pulse-echo imaging simulation -------
 
 c0                      = 1540;                   % Speed of sound compression wave [m/s]
@@ -82,6 +66,12 @@ scene_depth = 50e-3;
 %% Define k-Wave objects for phantom model
 
 [kgrid, medium] = create_phantom(shear_params);
+fprintf('Phantom case: %s\n', phantom_case);
+fprintf('Background cs: %.2f m/s\n', shear_params.c_shear_bkg);
+fprintf('Inclusion cs:  %.2f m/s\n', shear_params.c_shear_incl);
+
+fprintf('Min cs: %.2f m/s\n', min(medium.sound_speed_shear(:)));
+fprintf('Max cs: %.2f m/s\n', max(medium.sound_speed_shear(:)));
 
 %% Define wave source k-Wave object
 
@@ -108,7 +98,7 @@ volshow(permute(sensor.mask, [2, 1, 3]), ...
 %% Shear wave simulation
 
 display_mask = source.s_mask;
-DATA_CAST = 'gpuArray-single';
+DATA_CAST = 'single';
 input_args_shear = {'DisplayMask', display_mask, 'PMLInside', false, 'PlotPML', false, 'DataCast', DATA_CAST};
 sensor_data_shear = pstdElastic3D(kgrid, medium, source, sensor, input_args_shear{:});
 

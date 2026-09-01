@@ -31,7 +31,7 @@
 clear; clc; close all;
 
 % Add dependencies
-addpath('/path/to/field_II/')
+addpath('C:\Users\louis\Documents\GitHub\MasterOppgave\synthetic-the-rf-data-generation')
 
 addpath("FIELD_fun")
 addpath("FEM_fun")
