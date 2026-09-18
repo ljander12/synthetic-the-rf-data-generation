@@ -31,7 +31,10 @@
 clear; clc; close all;
 
 % Add dependencies
-addpath('/path/to/field_II/')
+
+addpath(fullfile(getenv('HOME'),'k-Wave'))
+addpath(fullfile(getenv('HOME'),'Field_II'))
+
 
 addpath("FIELD_fun")
 addpath("kwave_fun")
@@ -137,6 +140,7 @@ end
 [impulse_response, excitation, lag] = pulse_setup(f0, pulse_duration, 0.65, fs);
 
 %% Field II compute RF signals
+N_test_frames = 1;
 
 RF = FIELD_calc_RF(prb, sca_mesh, amp, TF_rev, alpha, ...
     scene_depth, fs, attenfreq, f0, c0, impulse_response, excitation);
@@ -146,7 +150,7 @@ RF = FIELD_calc_RF(prb, sca_mesh, amp, TF_rev, alpha, ...
 disp_gt = get_GT_kwave(kgrid, sensor, array_length, scene_depth, motion, prb_theta, TF);
 
 %% (Optional) Beamforming using USTB toolbox
-addpath('/path/to/ustb')
+addpath(fullfile(getenv('HOME'),'USTB'))
 
 probe = uff.linear_array();
 probe.element_height    = prb.element_height;
