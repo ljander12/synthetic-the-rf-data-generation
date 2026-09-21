@@ -42,7 +42,7 @@ addpath("utils")
 
 %% ---------------- Parameters for shear-wave simulation ------------------
 
-phantom_case = 'large_inclusions';
+phantom_case = 'homogeneous';
 
 shear_params = get_phantom_params(phantom_case);
 %% -------- Parameters for ultrasound pulse-echo imaging simulation -------
@@ -83,7 +83,7 @@ source = create_source(kgrid, shear_params.source_freq);
 %% Define k-Wave sensor object
 
 prb_center = [0 -20e-3 kgrid.z_vec(1)];
-prb_theta = [deg2rad(45), deg2rad(0)];
+prb_theta = [deg2rad(90), deg2rad(0)];
 
 [TF, TF_rev] = coor_transformation(prb_center, prb_theta);
 sensor = create_sensor(kgrid, array_length, prb.element_height, scene_depth, TF);
@@ -111,6 +111,33 @@ t_start = sqrt(shear_params.xrange^2+shear_params.yrange^2+shear_params.zrange^2
 t_start = t_start + 50 * kgrid.dt;
 [motion, vec_T] = sample_motion_at_prf("kwave", sensor_data_shear, kgrid, prf, t_start);
 
+%% Get simulation ground truth
+
+disp_gt = get_GT_kwave( ...
+    kgrid, sensor, array_length, scene_depth, ...
+    motion, prb_theta, TF);
+
+fprintf('Ground-truth displacement size: %s\n', ...
+    mat2str(size(disp_gt)));
+
+%% Save homogeneous ground-truth data
+
+save('homogeneous_ground_truth_theta90.mat', ...
+    'disp_gt', ...
+    'motion', ...
+    'vec_T', ...
+    'shear_params', ...
+    'prf', ...
+    'array_length', ...
+    'scene_depth', ...
+    'prb_center', ...
+    'prb_theta', ...
+    'TF', ...
+    '-v7.3');
+
+disp('Saved homogeneous_ground_truth_theta90.mat');
+
+return
 %% Create initial scatterer map
 
 sca_per_cell = 50;

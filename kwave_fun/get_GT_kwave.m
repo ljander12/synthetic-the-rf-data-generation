@@ -24,20 +24,19 @@ function disp_gt = get_GT_kwave(kgrid, sensor, array_length, scene_depth, motion
 prb_theta_x = prb_theta(1);
 prb_theta_z = prb_theta(2);
 
-syms x y;
-eq1 = x*cos(prb_theta_x)+y*sin(prb_theta_x) == 0;
-eq2 = x^2+y^2+cos(pi/2-prb_theta_z)^2 == 1;
-eqns = [eq1, eq2];
-S = solve(eqns, [x y]);
-N_scene = [double(S.x(2)), double(S.y(2)), cos(pi/2-prb_theta_z)];
+%% Scene normal and probe direction without Symbolic Math Toolbox
 
-syms x y;
-eq1 = x*cos(prb_theta_x)+y*sin(prb_theta_x) == 0;
-eq2 = N_scene(1)*x + N_scene(2)*y + N_scene(3) == 0;
-eqns = [eq1, eq2];
-S = solve(eqns, [x y]);
-PrbDir = [double(S.x), double(S.y), 1];
-PrbDir = PrbDir/norm(PrbDir);
+N_scene = [ ...
+    sin(prb_theta_x) * cos(prb_theta_z), ...
+   -cos(prb_theta_x) * cos(prb_theta_z), ...
+    sin(prb_theta_z)];
+
+PrbDir = [ ...
+   -tan(prb_theta_z) * sin(prb_theta_x), ...
+    tan(prb_theta_z) * cos(prb_theta_x), ...
+    1];
+
+PrbDir = PrbDir / norm(PrbDir);
 
 Nx = kgrid.Nx;
 Ny = kgrid.Ny;
