@@ -123,17 +123,14 @@ sws = squeeze(elastoPG.sws_map.u);
     elastoPG.scan.x_axis, ...
     elastoPG.scan.z_axis);
 
+% Only inclusion 1 intersects the current ultrasound imaging plane
 mask_in1 = ...
     (X - shear_params.cx1).^2 + ...
     (Z - shear_params.cz1).^2 <= shear_params.cr1^2;
 
-mask_in2 = ...
-    (X - shear_params.cx2).^2 + ...
-    (Z - shear_params.cz2).^2 <= shear_params.cr2^2;
-
 gt_sws = shear_params.c_shear_bkg * ones(size(X));
 
-gt_sws(mask_in1 | mask_in2) = ...
+gt_sws(mask_in1) = ...
     shear_params.c_shear_incl;
 
 %% Compare ground truth and estimated SWS
@@ -180,29 +177,26 @@ valid_region = ...
     Z > min(Z(:)) + edge_margin & ...
     Z < max(Z(:)) - edge_margin;
 
-mask_bkg = valid_region & ~(mask_in1 | mask_in2);
+mask_bkg = valid_region & ~mask_in1;
 
 mask_in1_eval = mask_in1 & valid_region;
-mask_in2_eval = mask_in2 & valid_region;
 
 mean_in1 = mean(sws(mask_in1_eval));
-mean_in2 = mean(sws(mask_in2_eval));
+
 mean_bkg = mean(sws(mask_bkg));
 
 bias_in1 = mean_in1 - shear_params.c_shear_incl;
-bias_in2 = mean_in2 - shear_params.c_shear_incl;
+
 bias_bkg = mean_bkg - shear_params.c_shear_bkg;
 
 std_in1 = std(sws(mask_in1_eval));
-std_in2 = std(sws(mask_in2_eval));
+
 std_bkg = std(sws(mask_bkg));
 
 fprintf('\nSWS ROI metrics:\n');
 fprintf('Inclusion 1: mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
     mean_in1, bias_in1, std_in1);
 
-fprintf('Inclusion 2: mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
-    mean_in2, bias_in2, std_in2);
 
 fprintf('Background:  mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
     mean_bkg, bias_bkg, std_bkg);
@@ -213,18 +207,15 @@ mask_in1_core = ...
     (X - shear_params.cx1).^2 + ...
     (Z - shear_params.cz1).^2 <= (0.7*shear_params.cr1)^2;
 
-mask_in2_core = ...
-    (X - shear_params.cx2).^2 + ...
-    (Z - shear_params.cz2).^2 <= (0.7*shear_params.cr2)^2;
 
 mask_in1_core = mask_in1_core & valid_region;
-mask_in2_core = mask_in2_core & valid_region;
+
 
 mean_in1_core = mean(sws(mask_in1_core));
-mean_in2_core = mean(sws(mask_in2_core));
+
 
 std_in1_core = std(sws(mask_in1_core));
-std_in2_core = std(sws(mask_in2_core));
+
 
 fprintf('\nInterior ROI metrics:\n');
 fprintf('Inclusion 1 core: mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
@@ -232,7 +223,15 @@ fprintf('Inclusion 1 core: mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
     mean_in1_core - shear_params.c_shear_incl, ...
     std_in1_core);
 
-fprintf('Inclusion 2 core: mean = %.3f, bias = %.3f, std = %.3f m/s\n', ...
-    mean_in2_core, ...
-    mean_in2_core - shear_params.c_shear_incl, ...
-    std_in2_core);
+%% Save SWS result for comparison
+
+sws_from_autocorr = sws;
+x_autocorr = elastoPG.scan.x_axis(:).';
+z_autocorr = elastoPG.scan.z_axis(:);
+
+save(fullfile(tempdir, 'sws_from_autocorr.mat'), ...
+    'sws_from_autocorr', ...
+    'x_autocorr', ...
+    'z_autocorr');
+
+disp('Saved autocorrelation SWS result for comparison')
