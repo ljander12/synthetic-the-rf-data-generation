@@ -1,6 +1,6 @@
 clear; clc;
 
-%% Load 0-degree simulation
+%% Load 90-degree simulation
 
 load('homogeneous_ground_truth_theta90.mat');
 
