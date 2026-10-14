@@ -10,7 +10,7 @@ clc;
 close all;
 
 %% 1. Select phantom case
-phantom_case = 'large_inclusions';
+phantom_case = 'low_contrast';
 
 % Other examples:
 % phantom_case = 'large_inclusions';
