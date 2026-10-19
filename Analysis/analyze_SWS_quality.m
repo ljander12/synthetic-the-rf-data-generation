@@ -343,36 +343,54 @@ fprintf('========================================\n');
 
 fprintf('\nInclusion\n');
 
-fprintf('  GT SWS:          %.4f m/s\n', shear_params.c_shear_incl);
+fprintf('  GT SWS:          %.4f m/s\n', ...
+    shear_params.c_shear_incl);
 
-fprintf('  Mean:            %.4f m/s\n', metrics.inclusion.mean);
+fprintf('  Mean:            %.4f m/s\n', ...
+    metrics.inclusion.mean);
 
-fprintf('  Median:          %.4f m/s\n', metrics.inclusion.median);
+fprintf('  Median:          %.4f m/s\n', ...
+    metrics.inclusion.median);
 
-fprintf('  SD:              %.4f m/s\n', metrics.inclusion.std);
+fprintf('  SD:              %.4f m/s\n', ...
+    metrics.inclusion.std);
 
-fprintf('  Bias:            %.4f m/s\n', metrics.inclusion.bias);
+fprintf('  Bias:            %.4f m/s\n', ...
+    metrics.inclusion.bias);
 
-fprintf('  MAE:             %.4f m/s\n', metrics.inclusion.MAE);
+fprintf('  Relative bias:   %.2f %%\n', ...
+    metrics.inclusion.relative_bias_percent);
 
-fprintf('  RMSE:            %.4f m/s\n', metrics.inclusion.RMSE);
+fprintf('  MAE:             %.4f m/s\n', ...
+    metrics.inclusion.MAE);
 
+fprintf('  RMSE:            %.4f m/s\n', ...
+    metrics.inclusion.RMSE);
 fprintf('\nBackground\n');
 
-fprintf('  GT SWS:          %.4f m/s\n', shear_params.c_shear_bkg);
+fprintf('  GT SWS:          %.4f m/s\n', ...
+    shear_params.c_shear_bkg);
 
-fprintf('  Mean:            %.4f m/s\n', metrics.background.mean);
+fprintf('  Mean:            %.4f m/s\n', ...
+    metrics.background.mean);
 
-fprintf('  Median:          %.4f m/s\n', metrics.background.median);
+fprintf('  Median:          %.4f m/s\n', ...
+    metrics.background.median);
 
-fprintf('  SD:              %.4f m/s\n', metrics.background.std);
+fprintf('  SD:              %.4f m/s\n', ...
+    metrics.background.std);
 
-fprintf('  Bias:            %.4f m/s\n', metrics.background.bias);
+fprintf('  Bias:            %.4f m/s\n', ...
+    metrics.background.bias);
 
-fprintf('  MAE:             %.4f m/s\n', metrics.background.MAE);
+fprintf('  Relative bias:   %.2f %%\n', ...
+    metrics.background.relative_bias_percent);
 
-fprintf('  RMSE:            %.4f m/s\n', metrics.background.RMSE);
+fprintf('  MAE:             %.4f m/s\n', ...
+    metrics.background.MAE);
 
+fprintf('  RMSE:            %.4f m/s\n', ...
+    metrics.background.RMSE);
 fprintf('\nGlobal\n');
 
 fprintf('  Bias:            %.4f m/s\n', metrics.global.bias);
@@ -383,66 +401,90 @@ fprintf('  RMSE:            %.4f m/s\n', metrics.global.RMSE);
 
 fprintf('\nImage quality\n');
 
-fprintf('  CNR:             %.4f\n', metrics.CNR);
+fprintf('  CNR:                 %.4f\n', ...
+    metrics.CNR);
 
-fprintf('  gCNR:            %.4f\n', metrics.gCNR);
+fprintf('  Direct-KDE gCNR:     %.4f\n', ...
+    metrics.gCNR_directKDE);
 
-fprintf('  Inclusion samples: %d\n', metrics.N_inclusion);
+fprintf('  True contrast:       %.4f m/s\n', ...
+    metrics.true_contrast_mps);
 
-fprintf('  Background samples: %d\n', metrics.N_background);
+fprintf('  Estimated contrast:  %.4f m/s\n', ...
+    metrics.estimated_contrast_mps);
 
-fprintf('  Edge accuracy:   %.4f mm\n', metrics.edge_accuracy_mm);
+fprintf('  Contrast recovery:   %.4f\n', ...
+    metrics.contrast_recovery);
 
-fprintf('  Edge sharpness:  %.6f m/s/pixel\n', ...
+fprintf('  Edge accuracy:       %.4f mm\n', ...
+    metrics.edge_accuracy_mm);
+
+fprintf('  Edge sharpness:      %.6f m/s/pixel\n', ...
     metrics.edge_sharpness_mps_per_pixel);
 
-fprintf('  Edge sharpness:  %.4f m/s/mm\n', ...
+fprintf('  Edge sharpness:      %.4f m/s/mm\n', ...
     metrics.edge_sharpness_mps_per_mm);
 
-fprintf('  Edge pixels:     %d\n', metrics.detected_edge_pixels);
+fprintf('  Edge pixels:         %d\n', ...
+    metrics.detected_edge_pixels);
 
 fprintf('========================================\n\n');
-
 %% 11. Baseline table
 
 baseline_table = table( ...
+    shear_params.c_shear_incl, ...
+    shear_params.c_shear_bkg, ...
     metrics.inclusion.mean, ...
     metrics.inclusion.median, ...
     metrics.inclusion.std, ...
     metrics.inclusion.bias, ...
+    metrics.inclusion.relative_bias_percent, ...
     metrics.inclusion.MAE, ...
     metrics.inclusion.RMSE, ...
     metrics.background.mean, ...
     metrics.background.median, ...
     metrics.background.std, ...
     metrics.background.bias, ...
+    metrics.background.relative_bias_percent, ...
     metrics.background.MAE, ...
     metrics.background.RMSE, ...
     metrics.global.bias, ...
     metrics.global.MAE, ...
     metrics.global.RMSE, ...
+    metrics.true_contrast_mps, ...
+    metrics.estimated_contrast_mps, ...
+    metrics.contrast_recovery, ...
     metrics.CNR, ...
+    metrics.gCNR_directKDE, ...
     metrics.edge_accuracy_mm, ...
     metrics.edge_sharpness_mps_per_pixel, ...
     metrics.edge_sharpness_mps_per_mm, ...
     metrics.detected_edge_pixels, ...
     'VariableNames', { ...
+        'GT_Inclusion_SWS_mps', ...
+        'GT_Background_SWS_mps', ...
         'InclusionMean_mps', ...
         'InclusionMedian_mps', ...
         'InclusionSD_mps', ...
         'InclusionBias_mps', ...
+        'InclusionRelativeBias_percent', ...
         'InclusionMAE_mps', ...
         'InclusionRMSE_mps', ...
         'BackgroundMean_mps', ...
         'BackgroundMedian_mps', ...
         'BackgroundSD_mps', ...
         'BackgroundBias_mps', ...
+        'BackgroundRelativeBias_percent', ...
         'BackgroundMAE_mps', ...
         'BackgroundRMSE_mps', ...
         'GlobalBias_mps', ...
         'GlobalMAE_mps', ...
         'GlobalRMSE_mps', ...
+        'TrueContrast_mps', ...
+        'EstimatedContrast_mps', ...
+        'ContrastRecovery', ...
         'CNR', ...
+        'DirectKDE_gCNR', ...
         'EdgeAccuracy_mm', ...
         'EdgeSharpness_mps_per_pixel', ...
         'EdgeSharpness_mps_per_mm', ...
@@ -453,27 +495,20 @@ baseline_csv = fullfile( ...
     [config.phantom_case '_SWS_baseline.csv']);
 
 writetable(baseline_table, baseline_csv);
-
 %% 12. Store baseline results
 
 results = struct();
-
 results.phantom_case = config.phantom_case;
-
 results.metrics = metrics;
-
 results.edge_metrics = edge_metrics;
-
 results.gt_info = gt_info;
-
 results.roi_info = roi_info;
-
+results.roi = roi;
 results.PRF = PRF;
-
 results.target_frequency = target_frequency;
-
 results.filter_speed = config.sws_filter_speed;
-
+results.x_axis = x_axis;
+results.z_axis = z_axis;
 %% 13. Optional repeated SWS noise test
 
 if config.run_sws_noise_test
@@ -1294,6 +1329,86 @@ else
     metrics.CNR = NaN;
 
 end
+
+%% Contrast recovery
+
+gt_i = metrics.inclusion.gt_mean;
+gt_b = metrics.background.gt_mean;
+
+true_contrast = gt_i - gt_b;
+estimated_contrast = mu_i - mu_b;
+
+metrics.true_contrast_mps = ...
+    true_contrast;
+
+metrics.estimated_contrast_mps = ...
+    estimated_contrast;
+
+if isfinite(true_contrast) && abs(true_contrast) > eps
+
+    metrics.contrast_recovery = ...
+        estimated_contrast / true_contrast;
+
+else
+
+    metrics.contrast_recovery = NaN;
+
+end
+
+
+%% Direct-KDE gCNR
+% Exploratory application of gCNR to reconstructed SWS distributions.
+
+pixels_i = double(sws(incl_mask));
+pixels_b = double(sws(bkg_mask));
+
+if ~isempty(pixels_i) && ~isempty(pixels_b)
+
+    x_min = min([pixels_i; pixels_b]);
+    x_max = max([pixels_i; pixels_b]);
+
+    if x_max > x_min
+
+        x_eval = ...
+            linspace(x_min, x_max, 1000);
+
+        f_i = ...
+            ksdensity(pixels_i, x_eval);
+
+        f_b = ...
+            ksdensity(pixels_b, x_eval);
+
+        % Normalize numerically so both represent PDFs.
+        f_i = ...
+            f_i ./ trapz(x_eval, f_i);
+
+        f_b = ...
+            f_b ./ trapz(x_eval, f_b);
+
+        overlap = ...
+            trapz( ...
+                x_eval, ...
+                min(f_i, f_b));
+
+        metrics.gCNR_directKDE = ...
+            1 - overlap;
+
+    else
+
+        metrics.gCNR_directKDE = 0;
+
+    end
+
+else
+
+    metrics.gCNR_directKDE = NaN;
+
+end
+
+
+metrics.N_inclusion = nnz(incl_mask);
+metrics.N_background = nnz(bkg_mask);
+metrics.N_global = nnz(global_mask);
 %% Generalized contrast-to-noise ratio (gCNR)
 % Transform-KDE implementation from Arnestad et al.
 % Default gamma = 0.7 is used for gCNR estimation.
@@ -1745,13 +1860,11 @@ end
 function m = region_metrics(sws, gt, mask)
 
 v = double(sws(mask));
-
 g = double(gt(mask));
 
 valid = isfinite(v) & isfinite(g);
 
 v = v(valid);
-
 g = g(valid);
 
 m = struct();
@@ -1761,15 +1874,15 @@ if isempty(v)
     m.N = 0;
 
     m.mean = NaN;
-
     m.median = NaN;
-
     m.std = NaN;
 
+    m.gt_mean = NaN;
+
     m.bias = NaN;
+    m.relative_bias_percent = NaN;
 
     m.MAE = NaN;
-
     m.RMSE = NaN;
 
     return;
@@ -1781,15 +1894,25 @@ e = v - g;
 m.N = numel(v);
 
 m.mean = mean(v);
-
 m.median = median(v);
-
 m.std = std(v);
 
+m.gt_mean = mean(g);
+
 m.bias = mean(e);
-
 m.MAE = mean(abs(e));
-
 m.RMSE = sqrt(mean(e.^2));
+
+% Relative bias [%]
+if abs(m.gt_mean) > eps
+
+    m.relative_bias_percent = ...
+        100 * m.bias / m.gt_mean;
+
+else
+
+    m.relative_bias_percent = NaN;
+
+end
 
 end
