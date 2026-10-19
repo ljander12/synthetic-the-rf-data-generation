@@ -65,7 +65,7 @@ addpath("utils");
 % 2. Parameters for shear-wave simulation
 % ========================================================================
 
-phantom_case = 'low_contrast';
+phantom_case = 'chaoran_baseline';
 
 shear_params = get_phantom_params(phantom_case);
 
@@ -388,9 +388,9 @@ fprintf( ...
 % to be repeated if something fails later in Field II or USTB.
 % ========================================================================
 
-GT_SAVE_FILE = ...
-    'low_contrast_ground_truth_theta90.mat';
-
+GT_SAVE_FILE = sprintf( ...
+    '%s_ground_truth_theta90.mat', ...
+    phantom_case);
 
 save( ...
     GT_SAVE_FILE, ...
@@ -413,8 +413,7 @@ fprintf('GROUND TRUTH SAVED\n');
 fprintf('%s\n', GT_SAVE_FILE);
 fprintf('========================================\n\n');
 
-disp('Saved low_contrast_ground_truth_theta90.mat');
-return
+fprintf('Saved %s\n', GT_SAVE_FILE);
 
 %% ========================================================================
 % 12. Create initial scatterer map
@@ -922,12 +921,13 @@ fprintf('========================================\n\n');
 % 28. Save complete low-contrast dataset
 % ========================================================================
 
-SAVE_FILE = ...
-    'low_contrast_displacement_with_quality.mat';
+SAVE_FILE = sprintf( ...
+    '%s_displacement_with_quality.mat', ...
+    phantom_case);
 
 
 fprintf('\n');
-fprintf('Saving complete low-contrast dataset...\n');
+fprintf('Saving complete phantom dataset...\n');
 
 
 save( ...
@@ -950,7 +950,7 @@ save( ...
 
 fprintf('\n');
 fprintf('========================================\n');
-fprintf('LOW-CONTRAST DATASET SAVED\n');
+fprintf('PHANTOM CASE DATASET SAVED\n');
 fprintf('%s\n', SAVE_FILE);
 fprintf('========================================\n\n');
 

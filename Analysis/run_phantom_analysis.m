@@ -10,11 +10,14 @@ clc;
 close all;
 
 %% 1. Select phantom case
-phantom_case = 'low_contrast';
+phantom_case = 'chaoran_baseline';
 
 % Other examples:
 % phantom_case = 'large_inclusions';
 % phantom_case = 'small_inclusions';
+% phantom_case = 'high_contrast';
+% phantom_case = 'low_contrast';
+% phantom_case = 'chaoran_baseline'
 
 %% 2. Select analyses
 RUN_DISPLACEMENT_ANALYSIS = true;
@@ -58,6 +61,10 @@ switch lower(phantom_case)
         data_name = 'large_inclusions_displacement_with_quality.mat';
     case 'small_inclusions'
         data_name = 'small_inclusions_displacement_with_quality.mat';
+    case 'high_contrast'
+        data_name = 'high_contrast_displacement_with_quality.mat';
+    case 'chaoran_baseline'
+        data_name = 'chaoran_baseline_displacement_with_quality.mat';
     otherwise
         error('Unknown phantom case: %s', phantom_case);
 end
