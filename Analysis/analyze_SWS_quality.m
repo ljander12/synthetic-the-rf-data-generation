@@ -385,6 +385,12 @@ fprintf('\nImage quality\n');
 
 fprintf('  CNR:             %.4f\n', metrics.CNR);
 
+fprintf('  gCNR:            %.4f\n', metrics.gCNR);
+
+fprintf('  Inclusion samples: %d\n', metrics.N_inclusion);
+
+fprintf('  Background samples: %d\n', metrics.N_background);
+
 fprintf('  Edge accuracy:   %.4f mm\n', metrics.edge_accuracy_mm);
 
 fprintf('  Edge sharpness:  %.6f m/s/pixel\n', ...
@@ -1286,6 +1292,68 @@ if isfinite(mu_i) && isfinite(mu_b) && denom > 0
 else
 
     metrics.CNR = NaN;
+
+end
+%% Generalized contrast-to-noise ratio (gCNR)
+% Transform-KDE implementation from Arnestad et al.
+% Default gamma = 0.7 is used for gCNR estimation.
+
+pixels_i = double(sws(incl_mask));
+pixels_b = double(sws(bkg_mask));
+
+
+fprintf('\nSWS DISTRIBUTION CHECK\n');
+
+fprintf('Inclusion: min %.4f, max %.4f m/s\n', ...
+    min(pixels_i), max(pixels_i));
+
+fprintf('Background: min %.4f, max %.4f m/s\n', ...
+    min(pixels_b), max(pixels_b));
+
+fprintf('Inclusion percentiles [1 5 50 95 99]:\n');
+disp(prctile(pixels_i, [1 5 50 95 99]));
+
+fprintf('Background percentiles [1 5 50 95 99]:\n');
+disp(prctile(pixels_b, [1 5 50 95 99]));
+
+if ~isempty(pixels_i) && ~isempty(pixels_b)
+
+    %% Direct KDE gCNR sanity check
+
+    x_min = min([pixels_i; pixels_b]);
+    x_max = max([pixels_i; pixels_b]);
+
+    x_eval = linspace(x_min, x_max, 1000);
+
+    f_i_direct = ksdensity(pixels_i, x_eval);
+    f_b_direct = ksdensity(pixels_b, x_eval);
+
+    % Normalize numerically
+    f_i_direct = f_i_direct ./ trapz(x_eval, f_i_direct);
+    f_b_direct = f_b_direct ./ trapz(x_eval, f_b_direct);
+
+    overlap_direct = trapz( ...
+        x_eval, ...
+        min(f_i_direct, f_b_direct));
+
+    metrics.gCNR_directKDE = 1 - overlap_direct;
+
+    fprintf('Direct-KDE gCNR sanity check: %.4f\n', ...
+        metrics.gCNR_directKDE);
+
+    %% Transform-KDE gCNR
+
+    [metrics.gCNR, metrics.gCNR_info] = ...
+        gCNR_tKDE( ...
+            pixels_i, ...
+            pixels_b, ...
+            false);
+
+else
+
+    metrics.gCNR = NaN;
+    metrics.gCNR_directKDE = NaN;
+    metrics.gCNR_info = struct();
 
 end
 

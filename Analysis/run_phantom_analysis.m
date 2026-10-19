@@ -10,7 +10,7 @@ clc;
 close all;
 
 %% 1. Select phantom case
-phantom_case = 'chaoran_baseline';
+phantom_case = 'high_contrast';
 
 % Other examples:
 % phantom_case = 'large_inclusions';
