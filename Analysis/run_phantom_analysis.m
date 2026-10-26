@@ -10,7 +10,7 @@ clc;
 close all;
 
 %% 1. Select phantom case
-phantom_case = 'high_contrast';
+phantom_case = 'large_inclusions';
 
 % Other examples:
 % phantom_case = 'large_inclusions';
@@ -23,7 +23,7 @@ phantom_case = 'high_contrast';
 RUN_DISPLACEMENT_ANALYSIS = true;
 RUN_NOISE_SWEEP           = false;
 
-RUN_SWS_ANALYSIS          = true;
+RUN_SWS_ANALYSIS          = false;
 RUN_SWS_NOISE_TEST        = false;
 
 %% 3. Resolve repository paths
