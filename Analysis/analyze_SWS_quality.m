@@ -19,6 +19,16 @@ function results = analyze_SWS_quality(config)
 %   - Edge accuracy (Dong et al., 2025)
 
 %   - Edge sharpness (Dong et al., 2025)
+%
+% Optional (config.run_published_quality_metrics = true):
+%   - Correlation Q (Schoen Jr. et al., 2025, adapted)
+%   - RMI-1D (Choi et al., 2015, adapted Eq. 6)
+%   - Original and quality-masked stiffness maps for PG and AC
+%   - Quality AUC / false-confidence diagnostics (GT used only for validation)
+%
+% The original SWS / quality-metric algorithms remain unchanged.
+% Phase Planarity Q and Log-RMI are NOT reported or visualized.
+% Requires precomputed or original metric scripts for Q and RMI-1D.
 
 %
 
@@ -28,7 +38,7 @@ function results = analyze_SWS_quality(config)
 
 % the edge metrics are evaluated after resampling the SWS map and GT map to
 
-% an isotropic grid. No Q_C metric or Q_C-based screening is used.
+% an isotropic grid. This baseline analysis does not use Q_C screening.
 
 arguments
 
@@ -876,6 +886,69 @@ if edge_metrics.has_inclusion
         edge_metrics.edge_accuracy_mm, ...
         edge_metrics.edge_sharpness_mps_per_mm));
 
+end
+
+%% 16. Optional literature-based quality metrics and masked stiffness
+% This is the ONE entry point. The original baseline analysis above is
+% unchanged. Correlation Q and RMI-1D are loaded from their own results
+% (or computed with the unchanged original source functions in 'auto').
+%
+% NOTE: Here PG is reconstructed by the existing analyze_SWS_quality
+% pipeline. AC is read from the original saved SWS quality analysis.
+% A consistency check below prevents accidentally mixing reconstructions.
+
+run_published = isfield(config, 'run_published_quality_metrics') && ...
+    ~isempty(config.run_published_quality_metrics) && ...
+    logical(config.run_published_quality_metrics);
+
+if run_published
+
+    quality_mode = 'saved';  % Safest default: never re-run metric stages
+    if isfield(config, 'quality_mode') && ~isempty(config.quality_mode)
+        quality_mode = config.quality_mode;
+    end
+
+    quality_opts = struct();
+    quality_opts.rho = 1000;
+    quality_opts.modulus = 'young';
+    quality_opts.corrThreshold = 0.63;
+    quality_opts.rmiThreshold = 0.85;
+    quality_opts.showFigures = true;
+    quality_opts.dpi = 220;
+    quality_opts.stiffnessColorMaxKPa = [];
+    if isfield(config, 'quality_options') && ~isempty(config.quality_options)
+        opts_in = config.quality_options;
+        assert(isstruct(opts_in) && isscalar(opts_in), ...
+            'config.quality_options must be a scalar struct.');
+        names = fieldnames(opts_in);
+        for k_opt = 1:numel(names)
+            quality_opts.(names{k_opt}) = opts_in.(names{k_opt});
+        end
+    end
+
+    fprintf('\n========================================\n');
+    fprintf('CORRELATION Q + RMI-1D + STIFFNESS MAPS\n');
+    fprintf('========================================\n');
+
+    [Q_table, Q_global, Q_masks] = analyze_sws_published_quality( ...
+        config.phantom_case, quality_mode, quality_opts);
+
+    % Check that the cached PG field actually corresponds to the PG
+    % reconstruction just computed by this file, not a stale filter setup.
+    compare_PG_with_saved_quality(config.phantom_case, sws_map, sws_gt);
+
+    results.reliability = struct();
+    results.reliability.metrics = Q_table;
+    results.reliability.global = Q_global;
+    results.reliability.mask_summary = Q_masks;
+    results.reliability.options = quality_opts;
+    results.reliability.mode = quality_mode;
+    results.reliability.note = ...
+        'Q and RMI-1D only; masked stiffness does not correct SWS errors.';
+
+    % Persist optional results in the ORIGINAL results structure too.
+    % Baseline csv, GT and SWS values are not changed.
+    save(save_file, 'results', '-append');
 end
 
 fprintf('\nSWS QUALITY ANALYSIS COMPLETE\n\n');
@@ -1915,4 +1988,598 @@ else
 
 end
 
+end
+
+%% ========================================================================
+% PUBLISHED QUALITY METRICS: saved / auto, maps, AUC, stiffness (two only)
+%% ========================================================================
+
+function [T, globalSummary, maskSummary] = analyze_sws_published_quality(phantom_cases, mode, opts)
+%ANALYZE_SWS_PUBLISHED_QUALITY Local helper called by analyze_SWS_quality.
+%
+% ONLY TWO REPORTED QUALITY METRICS:
+%   1. Correlation Q (adaptation of Schoen Jr. et al., 2025).
+%   2. RMI-1D (adaptation of Choi et al., 2015, Eq. 6).
+%
+% NO Phase Planarity Q or experimental Log-RMI outputs/comparisons.
+% IMPORTANT LEGACY DEPENDENCY: The ORIGINAL validate_sws_rmi.m source
+% still reads a saved phase_quality_results.mat as an input. If RMI-1D
+% must be computed for the first time, mode='auto' may run the original
+% test_sws_phase_consistency.m ONLY to satisfy that legacy dependency.
+% Phase Planarity is NEVER scored, plotted, or included in these results.
+% Existing RMI source/calibration and historical results are not modified.
+%
+% INSTALL in <repository>/Analysis/ alongside the existing metric scripts:
+%   test_sws_measurement_quality.m  and  validate_sws_rmi.m
+%   test_sws_phase_consistency.m only if legacy RMI prerequisites are absent.
+%
+% USAGE:
+%   [T,G,M] = run_all_sws_quality_metrics('high_contrast');
+%   [T,G,M] = run_all_sws_quality_metrics('all','saved');
+%   opts=struct('modulus','young','rho',1000,'corrThreshold',0.63, ...
+%       'rmiThreshold',0.85,'showFigures',true);
+%   [T,G,M] = run_all_sws_quality_metrics('high_contrast','auto',opts);
+%
+% mode='auto' (default) loads saved quality maps, computes MISSING stages
+% only; mode='saved' NEVER computes metric stages.
+%
+% Stiffness conversion (kPa):
+%   shear modulus mu = rho*c_s^2 / 1000;
+%   Young's modulus E ~ 3*rho*c_s^2 / 1000, for nearly incompressible,
+%   isotropic, linear elastic material without significant dispersion.
+% The SAME underlying SWS map is used for all three displayed stiffness
+% panels: original / Correlation Q masked / RMI-1D masked.
+%
+% CAUTION: Q>=0.63 is a pixelwise illustration, NOT the original study's
+% region-based acceptance criterion. RMI>=0.85 is exploratory and FAILED
+% to generalize across phantoms. Quality masking DOES NOT correct errors.
+% Ground truth is used ONLY for AUC/error/false-confidence validation,
+% NOT in quality or stiffness map construction.
+%
+% OUTPUT: Results/sws_measurement_quality/combined_metrics_published/
+%   all_metrics_comparison.csv, global_metrics_comparison.csv,
+%   stiffness_mask_coverage.csv, all_metrics_comparison.mat,
+%   quality_maps_<case>.png, stiffness_maps_<case>.png,
+%   stiffness_comparison_<case>_PG.png/.fig,
+%   stiffness_comparison_<case>_AC.png/.fig,
+%   stiffness_data_<case>.mat, global_auc_comparison.png,
+%   global_false_confidence.png.
+%
+% MATLAB static checks only; run against project data to verify end-to-end.
+
+    if nargin<1 || isempty(phantom_cases), phantom_cases='all'; end
+    if nargin<2 || isempty(mode), mode='auto'; end
+    if nargin<3 || isempty(opts), opts=struct(); end
+    assert(isstruct(opts) && isscalar(opts), 'Third input must be an options struct.');
+    mode=lower(char(string(mode)));
+    assert(any(strcmp(mode,{'auto','saved'})), ...
+        'Mode must be ''auto'' or ''saved''.');
+    opts=default_options(opts);
+
+    available={'large_inclusions','low_contrast','chaoran_baseline','high_contrast'};
+    if isscalar(string(phantom_cases)) && strcmpi(char(string(phantom_cases)),'all')
+        cases=available;
+    else
+        cases = cellstr(string(phantom_cases));
+    end
+    assert(~isempty(cases), 'Choose at least one phantom.');
+    for k=1:numel(cases)
+        assert(any(strcmp(cases{k},available)), ...
+            'Unsupported phantom: %s',cases{k});
+    end
+    cases=unique(cases,'stable');
+
+    scriptDir=fileparts(mfilename('fullpath'));
+    if isfolder(fullfile(scriptDir,'Results'))
+        repo=scriptDir;
+    elseif isfolder(fullfile(fileparts(scriptDir),'Results'))
+        repo=fileparts(scriptDir);
+    else
+        error('Results/ not found: put main function in repository Analysis/ or root.');
+    end
+    if isfolder(fullfile(repo,'Analysis'))
+        addpath(fullfile(repo,'Analysis'));
+    end
+    resultRoot=fullfile(repo,'Results','sws_measurement_quality');
+    outDir=fullfile(resultRoot,'combined_metrics_published');
+    if ~isfolder(outDir), mkdir(outDir); end
+    self_tests();
+
+    fprintf('\n=== SWS QUALITY: CORRELATION Q + RMI-1D ONLY ===\n');
+    fprintf('Mode: %s; phantom cases: %s\n',mode,strjoin(cases,', '));
+    fprintf('Modulus: %s; rho = %.1f kg/m^3\n',opts.modulus,opts.rho);
+    fprintf('Display thresholds: Correlation Q >= %.2f; RMI-1D >= %.2f\n', ...
+        opts.corrThreshold,opts.rmiThreshold);
+    fprintf('Thresholds are illustrative, NOT validated accuracy guarantees.\n');
+
+    if strcmp(mode,'auto')
+        for ic=1:numel(cases)
+            ensure_case_results(resultRoot,cases{ic});
+        end
+    end
+
+    metricNames={'Correlation Q','RMI-1D'};
+    methods={'PG','AC'};
+    regionsWanted={'Global','InclusionCore','BackgroundInterior'};
+    T=table();
+    maskSummary=table();
+    figData=struct('name',{},'auc',{},'fc',{});
+
+    for ic=1:numel(cases)
+        phantom=cases{ic};
+        cfile=fullfile(resultRoot,phantom,'quality_validation.mat');
+        rfile=fullfile(resultRoot,phantom,'rmi_1d_diagnostic','rmi_1d_results.mat');
+        assert(isfile(cfile), 'Correlation Q missing: %s',cfile);
+        assert(isfile(rfile), 'RMI-1D missing: %s',rfile);
+        C=load(cfile,'Q','GT','PG','AC','valid','x_axis','z_axis');
+        R=load(rfile,'RmiPG','RmiAC','GT','cPG','cAC', ...
+            'basic','masks','regions','x','z');
+        needC={'Q','GT','PG','AC','valid','x_axis','z_axis'};
+        needR={'RmiPG','RmiAC','GT','cPG','cAC','basic','masks','regions','x','z'};
+        assert(all(isfield(C,needC)) && all(isfield(R,needR)), ...
+            'One of the saved MAT files lacks expected fields in %s.',phantom);
+        sizeGT=size(R.GT);
+        arrays={C.Q,C.GT,C.PG,C.AC,C.valid,R.RmiPG,R.RmiAC, ...
+            R.cPG,R.cAC,R.basic};
+        for ia=1:numel(arrays)
+            assert(isequal(size(arrays{ia}),sizeGT), ...
+                'Map dimensions disagree in %s (array %d).',phantom,ia);
+        end
+        x=double(R.x(:));z=double(R.z(:));
+        assert(numel(x)==sizeGT(2) && numel(z)==sizeGT(1), ...
+            'SWS grid size mismatch in %s.',phantom);
+        assert(numel(C.x_axis)==numel(x) && numel(C.z_axis)==numel(z) ...
+            && max(abs(double(C.x_axis(:))-x))<1e-6 ...
+            && max(abs(double(C.z_axis(:))-z))<1e-6, ...
+            'Correlation Q and RMI coordinates disagree for %s.',phantom);
+
+        % Guard against mixing results saved from different reconstructions.
+        % The original RMI code may set invalid SWS outside its support to NaN.
+        support=logical(R.basic);
+        verify_match(double(C.GT),double(R.GT),'ground truth',phantom,support);
+        verify_match(double(C.PG),double(R.cPG),'PG SWS',phantom,support);
+        verify_match(double(C.AC),double(R.cAC),'AC SWS',phantom,support);
+
+        gt=double(R.GT);
+        speeds={double(R.cPG),double(R.cAC)};
+        qCorr=double(C.Q);
+        qs={{qCorr,double(R.RmiPG)},{qCorr,double(R.RmiAC)}};
+        common=logical(C.valid) & support & isfinite(gt) ...
+            & all(isfinite(cat(3,speeds{:})),3) ...
+            & isfinite(qCorr) & isfinite(R.RmiPG) & isfinite(R.RmiAC) ...
+            & qCorr>=0 & qCorr<=1 ...
+            & R.RmiPG>=0 & R.RmiPG<=1 & R.RmiAC>=0 & R.RmiAC<=1;
+        assert(nnz(common)>=100, ...
+            'Fewer than 100 common valid evaluation pixels for %s.',phantom);
+        assert(numel(R.regions)==numel(R.masks), ...
+            'RMI region names and masks disagree for %s.',phantom);
+
+        fprintf('\n%s: %d shared pixels (both SWS methods and both metrics)\n', ...
+            phantom,nnz(common));
+        caseAuc=nan(2,2);caseFC=nan(2,2);
+        regionNames=cellstr(string(R.regions(:)));
+        for ir=1:numel(regionsWanted)
+            irSaved=find(strcmp(regionNames,regionsWanted{ir}),1);
+            if isempty(irSaved)
+                warning('Region %s missing for %s.',regionsWanted{ir},phantom);
+                continue;
+            end
+            roi=logical(R.masks{irSaved});
+            assert(isequal(size(roi),sizeGT), 'ROI mask mismatch for %s.',phantom);
+            roi=roi & common;
+            if nnz(roi)<20, continue; end
+            for im=1:2
+                bad=abs(speeds{im}(roi)-gt(roi))>0.5;
+                prevalence=mean(bad);
+                for iq=1:2
+                    q=qs{im}{iq}(roi);
+                    auc=quality_auc(q,~bad);
+                    w=top_half_weights(q);
+                    falseConfidence=sum(w.*double(bad(:)))/sum(w);
+                    if prevalence>0
+                        reduction=100*(1-falseConfidence/prevalence);
+                    else
+                        reduction=NaN;
+                    end
+                    row=table(string(phantom),string(regionsWanted{ir}), ...
+                        string(methods{im}),string(metricNames{iq}),numel(q), ...
+                        prevalence,auc,mean(q>=1-1e-10),falseConfidence, ...
+                        reduction,'VariableNames', ...
+                        {'Phantom','Region','Estimator','Metric','ValidPixels', ...
+                         'BadFractionGT','AUC','FractionAtOne', ...
+                         'FalseConfidenceTop50','FalseConfidenceReductionPct'});
+                    T=[T;row]; %#ok<AGROW>
+                    if ir==1
+                        caseAuc(im,iq)=auc;caseFC(im,iq)=falseConfidence;
+                    end
+                end
+            end
+        end
+        figData(end+1).name=phantom; %#ok<AGROW>
+        figData(end).auc=caseAuc;
+        figData(end).fc=caseFC;
+
+        plot_quality_maps(outDir,phantom,x,z,gt,speeds,qs,common,opts);
+        [caseMaskRows,caseMaps]=make_stiffness_maps( ...
+            outDir,phantom,x,z,gt,speeds,qs,common,opts);
+        maskSummary=[maskSummary;caseMaskRows]; %#ok<AGROW>
+        save(fullfile(outDir,['stiffness_data_' phantom '.mat']), ...
+            'caseMaps','caseMaskRows','x','z','phantom','opts');
+        fprintf('  PG AUC: Correlation %.3f | RMI-1D %.3f\n',caseAuc(1,:));
+        fprintf('  AC AUC: Correlation %.3f | RMI-1D %.3f\n',caseAuc(2,:));
+        if any(caseAuc(:)<0.5)
+            warning('%s: at least one AUC <0.5 (reversed error ranking).',phantom);
+        end
+    end
+
+    globalSummary=T(T.Region=="Global",:);
+    writetable(T,fullfile(outDir,'all_metrics_comparison.csv'));
+    writetable(globalSummary,fullfile(outDir,'global_metrics_comparison.csv'));
+    writetable(maskSummary,fullfile(outDir,'stiffness_mask_coverage.csv'));
+    save(fullfile(outDir,'all_metrics_comparison.mat'), ...
+        'T','globalSummary','maskSummary','figData','cases','mode','opts');
+    plot_global_bars(figData,metricNames,outDir,opts);
+    fprintf('\n=== COMPLETE: 2 quality metrics + masked stiffness ===\n');
+    disp(globalSummary(:,{'Phantom','Estimator','Metric','AUC', ...
+        'FalseConfidenceTop50','FractionAtOne'}));
+    disp(maskSummary(:,{'Phantom','Estimator','CorrelationCoveragePct', ...
+        'RMICoveragePct','CorrelationBadAcceptedPct','RMIBadAcceptedPct'}));
+    fprintf('Saved everything under:\n  %s\n',outDir);
+    fprintf(['WARNING: Quality masking does not guarantee accurate stiffness.\n' ...
+        'Ground truth is for VALIDATION only, not a metric input.\n']);
+end
+
+function opts=default_options(opts)
+    defaults=struct('rho',1000,'modulus','young', ...
+        'corrThreshold',0.63,'rmiThreshold',0.85, ...
+        'stiffnessColorMaxKPa',[],'showFigures',false,'dpi',200);
+    f=fieldnames(defaults);
+    for k=1:numel(f)
+        if ~isfield(opts,f{k}) || isempty(opts.(f{k}))
+            opts.(f{k})=defaults.(f{k});
+        end
+    end
+    assert(isscalar(opts.rho) && isnumeric(opts.rho) && ...
+        isfinite(opts.rho) && opts.rho>0, 'rho must be positive.');
+    opts.modulus=lower(char(string(opts.modulus)));
+    assert(any(strcmp(opts.modulus,{'young','shear'})), ...
+        'modulus must be ''young'' or ''shear''.');
+    thresholds=[opts.corrThreshold,opts.rmiThreshold];
+    assert(all(isfinite(thresholds)) && all(thresholds>=0) ...
+        && all(thresholds<=1), 'Quality thresholds must be in [0,1].');
+    if ~isempty(opts.stiffnessColorMaxKPa)
+        assert(isscalar(opts.stiffnessColorMaxKPa) && ...
+            isfinite(opts.stiffnessColorMaxKPa) && ...
+            opts.stiffnessColorMaxKPa>0, ...
+            'stiffnessColorMaxKPa must be positive or [].');
+    end
+    assert(isscalar(opts.dpi) && isfinite(opts.dpi) && opts.dpi>0, ...
+        'dpi must be positive.');
+    assert(isscalar(opts.showFigures), 'showFigures must be scalar.');
+    opts.showFigures=logical(opts.showFigures);
+end
+
+function ensure_case_results(root,phantom)
+% The original RMI implementation has a LEGACY dependency on phase MAT.
+% The phase metric itself is not evaluated or plotted by this runner.
+    cfile=fullfile(root,phantom,'quality_validation.mat');
+    pfile=fullfile(root,phantom,'phase_consistency_diagnostic', ...
+        'phase_quality_results.mat');
+    rfile=fullfile(root,phantom,'rmi_1d_diagnostic','rmi_1d_results.mat');
+    if ~isfile(cfile)
+        require_function('test_sws_measurement_quality');
+        fprintf('Computing missing Correlation Q: %s\n',phantom);
+        test_sws_measurement_quality(phantom);
+    end
+    if isfile(rfile), return; end
+    if ~isfile(pfile)
+        require_function('test_sws_phase_consistency');
+        fprintf(['Legacy RMI prerequisite is missing for %s.\n' ...
+            'Generating phase input (NOT a reported quality metric).\n'],phantom);
+        test_sws_phase_consistency(phantom);
+    end
+    require_function('validate_sws_rmi');
+    calfile=fullfile(root,'rmi_1d_calibration.mat');
+    if ~isfile(calfile)
+        if strcmp(phantom,'large_inclusions')
+            fprintf('Creating original fixed RMI calibration: large_inclusions\n');
+            validate_sws_rmi(phantom,'calibrate');
+            return;
+        end
+        ensure_case_results(root,'large_inclusions');
+        assert(isfile(calfile), ...
+            ['RMI calibration missing despite large_inclusions. ' ...
+             'Inspect existing RMI files before recalibrating.']);
+    end
+    fprintf('Computing missing RMI-1D with frozen calibration: %s\n',phantom);
+    validate_sws_rmi(phantom,'use');
+end
+
+function require_function(name)
+    assert(~isempty(which(name)), ...
+        'Original source function %s.m missing from MATLAB path.',name);
+end
+
+function verify_match(a,b,what,phantom,support)
+    assert(isequal(size(a),size(b),size(support)), ...
+        'Stale %s maps in %s: dimension mismatch.',what,phantom);
+    assert(nnz(support)>10,'Too few pixels to check %s.',what);
+    assert(isequal(isfinite(a(support)),isfinite(b(support))), ...
+        'Stale %s maps in %s: valid support mismatch.',what,phantom);
+    valid=support & isfinite(a) & isfinite(b);
+    assert(nnz(valid)>10,'No jointly finite values for %s.',what);
+    delta=max(abs(a(valid)-b(valid)));
+    assert(delta<1e-4, ...
+        'Stale %s in %s: maximum difference %.6g. Refresh source maps.', ...
+        what,phantom,delta);
+end
+
+function [rows,maps]=make_stiffness_maps( ...
+    outDir,name,x,z,gt,speeds,qualities,common,opts)
+% Same original SWS for all masks. Fixed colorbar per phantom (PG + AC).
+    if strcmp(opts.modulus,'young')
+        factor=3;
+        cbLabel='Approx. Young''s modulus E [kPa]';
+        descriptor='Young modulus E';
+    else
+        factor=1;
+        cbLabel='Shear modulus \mu [kPa]';
+        descriptor='Shear modulus mu';
+    end
+    stiffness=cell(1,2);
+    maxSamples=[];
+    for im=1:2
+        m=nan(size(common));
+        m(common)=factor*opts.rho*(speeds{im}(common).^2)/1000;
+        stiffness{im}=m;
+        maxSamples=[maxSamples;m(common)]; %#ok<AGROW>
+    end
+    if isempty(opts.stiffnessColorMaxKPa)
+        cmax=max(1,ceil(quantile_no_toolbox(maxSamples,99)/5)*5);
+    else
+        cmax=opts.stiffnessColorMaxKPa;
+    end
+    accepted=cell(2,2);
+    masked=cell(2,2);
+    rows=table();
+    maps=struct();
+    for im=1:2
+        method={'PG','AC'};
+        for iq=1:2
+            threshold=opts.corrThreshold;
+            if iq==2, threshold=opts.rmiThreshold; end
+            accepted{im,iq}=common & (qualities{im}{iq}>=threshold);
+            v=stiffness{im};
+            v(~accepted{im,iq})=NaN;
+            masked{im,iq}=v;
+        end
+        bad=abs(speeds{im}-gt)>0.5;
+        n=nnz(common);
+        nCorr=nnz(accepted{im,1});nRMI=nnz(accepted{im,2});
+        cBad=NaN;rBad=NaN;
+        if nCorr>0, cBad=100*nnz(accepted{im,1}&bad)/nCorr; end
+        if nRMI>0, rBad=100*nnz(accepted{im,2}&bad)/nRMI; end
+        row=table(string(name),string(method{im}),n,opts.rho, ...
+            string(opts.modulus),opts.corrThreshold,opts.rmiThreshold, ...
+            100*nCorr/n,100*nRMI/n,cBad,rBad, ...
+            'VariableNames',{'Phantom','Estimator','CommonValidPixels', ...
+            'Density_kg_m3','Modulus','CorrelationThreshold','RMIThreshold', ...
+            'CorrelationCoveragePct','RMICoveragePct', ...
+            'CorrelationBadAcceptedPct','RMIBadAcceptedPct'});
+        rows=[rows;row]; %#ok<AGROW>
+        if nRMI < .25*n
+            warning('%s/%s: RMI threshold accepts <25%% of valid pixels.', ...
+                name,method{im});
+        end
+        fprintf('  %s: Correlation accepts %.1f%%; RMI accepts %.1f%%\n', ...
+            method{im},100*nCorr/n,100*nRMI/n);
+        field=method{im};
+        maps.(field)=struct('original_kPa',stiffness{im}, ...
+            'correlation_masked_kPa',masked{im,1}, ...
+            'rmi_masked_kPa',masked{im,2}, ...
+            'correlation_accept',accepted{im,1}, ...
+            'rmi_accept',accepted{im,2}, ...
+            'correlation_quality',qualities{im}{1}, ...
+            'rmi_quality',qualities{im}{2}, ...
+            'common_support',common,'display_cmax_kPa',cmax);
+    end
+
+    vis='off';if opts.showFigures,vis='on';end
+    % Two 1x3 figures optimized for PowerPoint, one for each estimator.
+    for im=1:2
+        f=figure('Visible',vis,'Color','w', ...
+            'Position',[50 70 1740 590],'Name',[name ' / ' method{im}]);
+        tl=tiledlayout(f,1,3,'Padding','compact','TileSpacing','compact');
+        headings={sprintf('Original stiffness / %s',method{im}), ...
+            sprintf('Correlation Q >= %.2f',opts.corrThreshold), ...
+            sprintf('RMI-1D >= %.2f',opts.rmiThreshold)};
+        panels={stiffness{im},masked{im,1},masked{im,2}};
+        for j=1:3
+            ax=nexttile(tl);
+            display_map(ax,x,z,panels{j},[0 cmax],headings{j},cbLabel);
+        end
+        title(tl,[strrep(name,'_',' ') ' | ' descriptor ...
+            ' | SAME reconstructed SWS, different quality masks'], ...
+            'Interpreter','none');
+        stem=sprintf('stiffness_comparison_%s_%s',name,method{im});
+        exportgraphics(f,fullfile(outDir,[stem '.png']),'Resolution',opts.dpi);
+        savefig(f,fullfile(outDir,[stem '.fig']));
+        if ~opts.showFigures,close(f);end
+    end
+    % Combined 2x3 figure, with consistent colorbar across PG and AC.
+    f=figure('Visible',vis,'Color','w','Position',[60 60 1710 1030]);
+    tl=tiledlayout(f,2,3,'Padding','compact','TileSpacing','compact');
+    for im=1:2
+        panels={stiffness{im},masked{im,1},masked{im,2}};
+        heads={'Original',sprintf('Correlation Q >= %.2f',opts.corrThreshold), ...
+            sprintf('RMI-1D >= %.2f',opts.rmiThreshold)};
+        for j=1:3
+            ax=nexttile(tl,(im-1)*3+j);
+            display_map(ax,x,z,panels{j},[0 cmax], ...
+                sprintf('%s / %s',method{im},heads{j}),cbLabel);
+        end
+    end
+    title(tl,[strrep(name,'_',' ') ' | ' descriptor ...
+        ' | Pixelwise quality masking (illustrative thresholds)'], ...
+        'Interpreter','none');
+    exportgraphics(f,fullfile(outDir,['stiffness_maps_' name '.png']), ...
+        'Resolution',opts.dpi);
+    if ~opts.showFigures,close(f);end
+end
+
+function display_map(ax,x,z,M,limits,heading,cbLabel)
+    h=imagesc(ax,x*1e3,z*1e3,M);
+    set(h,'AlphaData',double(isfinite(M)));
+    set(ax,'Color',[0.94 0.94 0.94]);
+    axis(ax,'image');set(ax,'YDir','normal');
+    colormap(ax,parula(256));clim(ax,limits);
+    cb=colorbar(ax);cb.Label.String=cbLabel;
+    xlabel(ax,'Lateral [mm]');ylabel(ax,'Depth [mm]');
+    title(ax,heading,'Interpreter','none');
+    box(ax,'on');
+end
+
+function plot_quality_maps(outDir,name,x,z,gt,speeds,qualities,common,opts)
+    vis='off';if opts.showFigures,vis='on';end
+    f=figure('Visible',vis,'Color','w','Position',[60 60 1670 1020]);
+    tl=tiledlayout(f,2,3,'TileSpacing','compact','Padding','compact');
+    heads={'Absolute SWS error [m/s]','Correlation Q','RMI-1D'};
+    for im=1:2
+        values={abs(speeds{im}-gt),qualities{im}{1},qualities{im}{2}};
+        for j=1:3
+            ax=nexttile(tl,(im-1)*3+j);
+            v=values{j};v(~common)=NaN;
+            cb='Quality score Q [0-1]';lim=[0 1];
+            if j==1,cb='|SWS - GT| [m/s]';lim=[0 4];end
+            display_map(ax,x,z,v,lim,sprintf('%s / %s', ...
+                ternary(im==1,'PG','AC'),heads{j}),cb);
+        end
+    end
+    title(tl,['Only published-inspired Q metrics | ' strrep(name,'_',' ') ...
+        ' | SWS error uses GT for validation ONLY'],'Interpreter','none');
+    exportgraphics(f,fullfile(outDir,['quality_maps_' name '.png']), ...
+        'Resolution',opts.dpi);
+    if ~opts.showFigures,close(f);end
+end
+
+function plot_global_bars(figData,metricNames,outDir,opts)
+    n=numel(figData);
+    names=cell(2*n,1);auc=nan(2*n,2);fc=nan(2*n,2);
+    for i=1:n
+        names{2*i-1}=[strrep(figData(i).name,'_',' ') ' / PG'];
+        names{2*i}=[strrep(figData(i).name,'_',' ') ' / AC'];
+        auc(2*i-1:2*i,:)=figData(i).auc;
+        fc(2*i-1:2*i,:)=figData(i).fc;
+    end
+    vis='off';if opts.showFigures,vis='on';end
+    f=figure('Visible',vis,'Color','w','Position',[80 70 1500 750]);
+    bar(auc,'grouped');ylim([0 1]);grid on;hold on;
+    yline(0.5,'k--','Random ranking');hold off;
+    set(gca,'XTick',1:2*n,'XTickLabel',names,'XTickLabelRotation',25);
+    ylabel('AUC: high Q predicts low SWS error');
+    legend(metricNames,'Location','northoutside','Orientation','horizontal');
+    title('Global AUC | Error event: |SWS-GT| > 0.5 m/s');
+    exportgraphics(f,fullfile(outDir,'global_auc_comparison.png'), ...
+        'Resolution',opts.dpi);
+    if ~opts.showFigures,close(f);end
+    f=figure('Visible',vis,'Color','w','Position',[80 70 1500 750]);
+    bar(100*fc,'grouped');ylim([0 100]);grid on;
+    set(gca,'XTick',1:2*n,'XTickLabel',names,'XTickLabelRotation',25);
+    ylabel('Incorrect SWS among top 50% Q pixels [%]');
+    legend(metricNames,'Location','northoutside','Orientation','horizontal');
+    title('Global false confidence | Lower is better');
+    exportgraphics(f,fullfile(outDir,'global_false_confidence.png'), ...
+        'Resolution',opts.dpi);
+    if ~opts.showFigures,close(f);end
+end
+
+function auc=quality_auc(scores,isGood)
+    scores=double(scores(:));isGood=logical(isGood(:));
+    ok=isfinite(scores);scores=scores(ok);isGood=isGood(ok);
+    nGood=nnz(isGood);nBad=nnz(~isGood);
+    if nGood==0 || nBad==0,auc=NaN;return;end
+    [sorted,idx]=sort(scores,'ascend');
+    good=double(isGood(idx));n=numel(sorted);
+    starts=[1;find(diff(sorted)~=0)+1];
+    ends=[starts(2:end)-1;n];
+    cumulative=[0;cumsum(good)];
+    goodPerGroup=cumulative(ends+1)-cumulative(starts);
+    rank=(starts+ends)/2;
+    auc=(sum(goodPerGroup.*rank)-nGood*(nGood+1)/2)/(nGood*nBad);
+    auc=max(0,min(1,auc));
+end
+
+function w=top_half_weights(q)
+    q=double(q(:));
+    assert(~isempty(q) && all(isfinite(q)), ...
+        'Top-half ranking requires finite Q values.');
+    n=numel(q);sorted=sort(q,'descend');
+    cutoff=sorted(ceil(n/2));
+    above=q>cutoff;ties=q==cutoff;
+    fraction=(n/2-nnz(above))/nnz(ties);
+    fraction=max(0,min(1,fraction));
+    w=double(above)+fraction*double(ties);
+    assert(abs(sum(w)-n/2)<1e-6*max(1,n),'Tie weighting failed.');
+end
+
+function p=quantile_no_toolbox(x,percent)
+    x=sort(double(x(isfinite(x))));
+    assert(~isempty(x),'Cannot scale an empty stiffness map.');
+    if numel(x)==1,p=x;return;end
+    t=1+(numel(x)-1)*percent/100;
+    lo=floor(t);hi=ceil(t);
+    p=x(lo)+(t-lo)*(x(hi)-x(lo));
+end
+
+function value=ternary(tf,a,b)
+    if tf,value=a;else,value=b;end
+end
+
+function self_tests()
+    assert(abs(quality_auc([0 1],[false true])-1)<1e-12, ...
+        'AUC unit test failed.');
+    assert(abs(quality_auc([1 0],[false true]))<1e-12, ...
+        'AUC reversed unit test failed.');
+    assert(abs(quality_auc([1 1],[false true])-0.5)<1e-12, ...
+        'AUC tie unit test failed.');
+    assert(abs(sum(top_half_weights(ones(20,1)))-10)<1e-10, ...
+        'Top-half unit test failed.');
+end
+
+%% ========================================================================
+% Local consistency check: analyze_SWS_quality PG vs stored RMI PG
+% ========================================================================
+function compare_PG_with_saved_quality(phantom, sws_map, sws_gt)
+    here=fileparts(mfilename('fullpath'));
+    if isfolder(fullfile(here,'Results'))
+        repo=here;
+    else
+        repo=fileparts(here);
+    end
+    rmiFile=fullfile(repo,'Results','sws_measurement_quality',phantom, ...
+        'rmi_1d_diagnostic','rmi_1d_results.mat');
+    assert(isfile(rmiFile), 'RMI reference missing for PG consistency: %s',rmiFile);
+    S=load(rmiFile,'cPG','GT','basic');
+    assert(isfield(S,'cPG') && isfield(S,'GT') && isfield(S,'basic'), ...
+        'RMI file missing PG/GT/valid-support information.');
+    assert(isequal(size(sws_map),size(S.cPG),size(sws_gt),size(S.GT)), ...
+        ['The newly reconstructed SWS/GT map and cached RMI maps have ' ...
+         'different dimensions: check scan and dataset.']);
+    valid=isfinite(sws_map) & isfinite(S.cPG) & logical(S.basic);
+    assert(nnz(valid)>=100, ...
+        'Insufficient common PG pixels to verify SWS reconstruction.');
+    diffPG=abs(double(sws_map(valid))-double(S.cPG(valid)));
+    diffGT=abs(double(sws_gt(valid))-double(S.GT(valid)));
+    pgP95=prctile(diffPG,95);
+    pgBad=mean(diffPG>0.1);
+    gtMax=max(diffGT);
+    fprintf('\nPG consistency against cached quality maps:\n');
+    fprintf('  PG median difference = %.6g m/s\n',median(diffPG));
+    fprintf('  PG P95 difference    = %.6g m/s\n',pgP95);
+    fprintf('  PG >0.1 m/s pixels   = %.3f%%\n',100*pgBad);
+    fprintf('  GT max difference    = %.6g m/s\n',gtMax);
+    assert(pgP95 < 0.02 && pgBad < 0.01 && gtMax < 1e-4, ...
+        ['Cached RMI results do not match the current SWS/GT reconstruction. ' ...
+         'Check config.sws_filter_speed, phantom dataset and old result files. ' ...
+         'Do NOT present mixed results as one analysis.']);
 end

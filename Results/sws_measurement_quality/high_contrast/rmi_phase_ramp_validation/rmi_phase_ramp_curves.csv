@@ -1,0 +1,1921 @@
+Phantom,Region,Beta_rad_per_mm,Estimator,QualityMetric,Unit,Coverage_pct,RiskMAE_mps,RandomRisk_mps
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,5,0.581482559787334,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,10,0.593229159025501,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,15,0.61568655184543,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,20,0.624655094486083,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,25,0.63000351342591,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,30,0.637551287463181,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,35,0.647518623458251,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,40,0.655450158593779,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,45,0.663784413960868,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,50,0.669660533130427,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,55,0.674181779620722,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,60,0.678150649297332,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,65,0.68423053386571,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,70,0.688610278063341,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,75,0.691902955229521,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,80,0.69666773477491,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,85,0.70307855889719,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,90,0.710164570681967,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,95,0.718282360377091,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Pixel,100,0.722619308171258,0.722619308171263
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,5,0.584517711056497,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,10,0.547220908342233,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,15,0.616698364895876,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,20,0.603335280605624,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,25,0.582492368964719,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,30,0.59151200445946,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,35,0.574754047845675,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,40,0.578945341879476,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,45,0.581658106204034,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,50,0.581691493315067,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,55,0.598618543137546,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,60,0.594619621357854,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,65,0.606441420609755,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,70,0.625924314565797,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,75,0.641616075695625,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,80,0.649442840599363,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,85,0.661932339021541,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,90,0.688628563202369,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,95,0.71178989999526,0.704301935011688
+high_contrast,Global,-0.2,PG,Phase Planarity Q,Block1mm,100,0.704301935011689,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,5,0.536846549904804,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,10,0.538740691707518,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,15,0.539422209814756,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,20,0.538254353318947,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,25,0.536566979920371,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,30,0.534790735461047,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,35,0.533737045042419,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,40,0.533293149579443,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,45,0.533938891810488,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,50,0.536146586878327,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,55,0.538331631239818,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,60,0.542264638409935,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,65,0.547842767649336,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,70,0.558925416536784,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,75,0.581904627322108,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,80,0.626031454086599,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,85,0.681024275467682,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,90,0.721337387051931,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,95,0.727070363329675,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Pixel,100,0.722619308171259,0.722619308171263
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,5,0.440471598129944,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,10,0.449999262610285,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,15,0.454137946935144,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,20,0.467227740915268,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,25,0.476777521839865,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,30,0.475075344286798,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,35,0.479169012027683,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,40,0.487123335211854,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,45,0.482310709623551,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,50,0.484539139628141,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,55,0.485932935708456,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,60,0.487417639049454,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,65,0.485467695390077,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,70,0.490173095988976,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,75,0.493447708734545,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,80,0.536191499249869,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,85,0.623970542890467,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,90,0.686305335262582,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,95,0.714786535304062,0.704301935011688
+high_contrast,Global,-0.2,PG,RMI-1D,Block1mm,100,0.704301935011689,0.704301935011688
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,5,0.578334636216984,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,10,0.589170267739086,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,15,0.610653841829424,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,20,0.619205635360509,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,25,0.624336510470809,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,30,0.631752280521707,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,35,0.641666580394945,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,40,0.64955215100515,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,45,0.657825205041759,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,50,0.663673237674043,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,55,0.668194732121401,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,60,0.67217159865414,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,65,0.678251897467897,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,70,0.682650711762691,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,75,0.685923838638864,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,80,0.690634284728042,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,85,0.69699108013682,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,90,0.703984474408411,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,95,0.712253879981547,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Pixel,100,0.71948247588201,0.719482475882035
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,5,0.577838972937707,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,10,0.540028190252557,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,15,0.609598797361322,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,20,0.596367663893077,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,25,0.575811651370154,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,30,0.585148749844745,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,35,0.568321644594077,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,40,0.572699843891908,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,45,0.575424487487328,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,50,0.575639278055144,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,55,0.592664099925796,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,60,0.588736807791834,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,65,0.600494259295987,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,70,0.619929623880973,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,75,0.635751815901221,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,80,0.643470343956148,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,85,0.655885278070324,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,90,0.682135533180989,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,95,0.705265532181353,0.701076373929007
+high_contrast,Global,-0.2,AC,Phase Planarity Q,Block1mm,100,0.701076373929007,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,5,0.530714008319012,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,10,0.532621640041367,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,15,0.533269927252289,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,20,0.532012334373364,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,25,0.530342838794403,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,30,0.528547061972171,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,35,0.527438334176375,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,40,0.526992394870746,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,45,0.527527919747363,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,50,0.529681212536486,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,55,0.531850385354095,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,60,0.535817311830128,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,65,0.541412956849032,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,70,0.552512385358447,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,75,0.57557612807885,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,80,0.619915855766369,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,85,0.67503757330671,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,90,0.715196660024198,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,95,0.721262036539047,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Pixel,100,0.719482475882024,0.719482475882035
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,5,0.433693231741442,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,10,0.443592820621022,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,15,0.44789216283827,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,20,0.46106033578992,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,25,0.470579684664934,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,30,0.469109197384284,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,35,0.47311509172355,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,40,0.480958580805365,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,45,0.476187238564315,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,50,0.47831166469324,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,55,0.479668165678529,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,60,0.481177552755949,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,65,0.479237930855304,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,70,0.484033586409036,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,75,0.487307481186189,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,80,0.529922710001882,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,85,0.615256462282956,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,90,0.679673725283963,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,95,0.708105756102049,0.701076373929007
+high_contrast,Global,-0.2,AC,RMI-1D,Block1mm,100,0.701076373929007,0.701076373929007
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,5,0.275886025389517,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,10,0.27402182045352,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,15,0.292162004184658,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,20,0.29965090752224,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,25,0.303414189057899,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,30,0.308743340030856,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,35,0.317112548237322,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,40,0.323290902988471,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,45,0.330329068341674,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,50,0.335191095364726,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,55,0.339491728461652,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,60,0.343211874766683,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,65,0.347904039853351,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,70,0.352860929832988,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,75,0.356786700405539,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,80,0.362165953972629,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,85,0.369566955584077,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,90,0.378887104983188,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,95,0.390874976762522,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Pixel,100,0.405948775725433,0.405948775725437
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,5,0.268003811800381,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,10,0.250089681655023,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,15,0.29831171995917,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,20,0.278983100364912,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,25,0.258988944288892,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,30,0.269123596261096,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,35,0.265525244296621,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,40,0.274479551456293,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,45,0.26710780965636,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,50,0.265430285780215,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,55,0.279971276217293,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,60,0.281060266038075,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,65,0.286704149649851,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,70,0.301036603517388,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,75,0.318956722186616,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,80,0.328575424581928,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,85,0.345700820122049,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,90,0.370062182822543,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,95,0.399880018363218,0.410588289237288
+high_contrast,Global,0,PG,Phase Planarity Q,Block1mm,100,0.410588289237288,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Pixel,5,0.204905102840648,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,10,0.207587146016394,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,15,0.212771536853144,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,20,0.215494807642853,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,25,0.215897052768972,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,30,0.215396028105661,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,35,0.214438090728448,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,40,0.214284754940251,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,45,0.213543909880982,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,50,0.214087704800139,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,55,0.215102290291763,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,60,0.218812658867896,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,65,0.224141844455155,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,70,0.235426243065617,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,75,0.257553780535106,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,80,0.296458897034266,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,85,0.348464453347601,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,90,0.389596152148415,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,95,0.404144386301048,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Pixel,100,0.405948775725438,0.405948775725437
+high_contrast,Global,0,PG,RMI-1D,Block1mm,5,0.227690236542928,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,10,0.20336002842629,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,15,0.201756789950851,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,20,0.192758459068181,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,25,0.183667293695587,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,30,0.179721946294853,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,35,0.178756600507498,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,40,0.180779321076692,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,45,0.182495738207921,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,50,0.184016246857122,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,55,0.184903445900979,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,60,0.184855124438188,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,65,0.187334665234012,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,70,0.189165953997191,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,75,0.197655874434205,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,80,0.237665667796961,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,85,0.297865271271421,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,90,0.366575529432007,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,95,0.397546313122942,0.410588289237288
+high_contrast,Global,0,PG,RMI-1D,Block1mm,100,0.410588289237287,0.410588289237288
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,5,0.282344386602669,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,10,0.280513063603243,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,15,0.298761112682965,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,20,0.306152404530613,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,25,0.30984896913097,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,30,0.315071964128781,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,35,0.323328838550971,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,40,0.329473362352045,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,45,0.336536233346573,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,50,0.341358505848223,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,55,0.345589131776926,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,60,0.349241125718061,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,65,0.353847017153698,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,70,0.358732674591876,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,75,0.362565398468532,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,80,0.367842326156205,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,85,0.375131405101862,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,90,0.384341818845991,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,95,0.396230705853454,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Pixel,100,0.411206425785078,0.411206425785078
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,5,0.274739025535233,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,10,0.258090636155469,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,15,0.305276366132966,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,20,0.286376159699817,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,25,0.265960930512429,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,30,0.276473511054951,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,35,0.272976768095818,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,40,0.281942849433708,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,45,0.274527813156147,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,50,0.272544888064965,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,55,0.286973918357554,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,60,0.28782575316886,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,65,0.293153569058037,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,70,0.307209222576909,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,75,0.325111688840716,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,80,0.334512732774314,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,85,0.351550891805459,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,90,0.375785340232997,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,95,0.405111072325344,0.415936599906857
+high_contrast,Global,0,AC,Phase Planarity Q,Block1mm,100,0.415936599906857,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Pixel,5,0.211282196539431,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,10,0.214799771703268,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,15,0.220222580155843,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,20,0.222734788292123,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,25,0.223178216809484,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,30,0.222796618468925,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,35,0.221923028705954,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,40,0.221668399597001,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,45,0.22113220344658,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,50,0.221583615430104,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,55,0.222559557209674,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,60,0.226144319004762,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,65,0.231340231894113,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,70,0.242575204830173,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,75,0.264463459400277,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,80,0.303026800227295,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,85,0.354595712708706,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,90,0.395220676811754,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,95,0.409464709422645,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Pixel,100,0.41120642578508,0.411206425785078
+high_contrast,Global,0,AC,RMI-1D,Block1mm,5,0.238003970187317,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,10,0.208524247045176,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,15,0.210878070801568,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,20,0.199953204674236,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,25,0.191686121494633,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,30,0.188470857823744,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,35,0.184784708509367,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,40,0.186817405725089,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,45,0.190195750467488,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,50,0.190505410855937,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,55,0.192218156726944,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,60,0.192762529284638,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,65,0.194586852490511,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,70,0.196411297976765,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,75,0.205405713646,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,80,0.24464241649608,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,85,0.304415216368509,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,90,0.372385636789437,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,95,0.402892215978623,0.415936599906857
+high_contrast,Global,0,AC,RMI-1D,Block1mm,100,0.415936599906857,0.415936599906857
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,5,1.35329271311791,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,10,1.37941201521447,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,15,1.40396114235412,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,20,1.41309776425539,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,25,1.41738784283121,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,30,1.41951188272211,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,35,1.42067005080761,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,40,1.42176130363746,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,45,1.4223422980067,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,50,1.42221850659227,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,55,1.42152834466636,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,60,1.42016230305609,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,65,1.41852241912432,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,70,1.4167802621506,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,75,1.41487480709447,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,80,1.41230815852899,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,85,1.40939851996128,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,90,1.40640303677289,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,95,1.40160811439455,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Pixel,100,1.38985641184733,1.38985641184735
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,5,1.48308583464715,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,10,1.46937526598888,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,15,1.46311306011609,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,20,1.44831856784049,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,25,1.44810278745243,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,30,1.44841235225914,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,35,1.44609010623901,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,40,1.44441018562111,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,45,1.44369486240346,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,50,1.43835234012485,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,55,1.43466668464965,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,60,1.43155231784967,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,65,1.43297053513171,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,70,1.43058222212408,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,75,1.42713362655803,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,80,1.42605610322273,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,85,1.42726358961771,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,90,1.42502949837237,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,95,1.41444461949081,1.39863383052124
+high_contrast,Global,0.2,PG,Phase Planarity Q,Block1mm,100,1.39863383052125,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,5,1.31035207227622,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,10,1.30749961790415,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,15,1.28405144945618,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,20,1.25905112198317,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,25,1.25233491861506,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,30,1.25278514270623,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,35,1.25667904807288,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,40,1.2631573597241,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,45,1.27191761421009,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,50,1.28207316199041,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,55,1.29294541130207,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,60,1.30421248290167,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,65,1.31512039010015,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,70,1.32459457209658,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,75,1.33507000112671,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,80,1.3461118625382,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,85,1.35818837217359,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,90,1.37262050122527,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,95,1.39466696777175,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Pixel,100,1.38985641184735,1.38985641184735
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,5,1.19444975614563,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,10,1.14716902123563,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,15,1.16303161560021,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,20,1.18259118047807,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,25,1.19739547384627,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,30,1.21325381842183,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,35,1.22438369370052,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,40,1.23795381769723,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,45,1.25442965162774,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,50,1.27017801201644,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,55,1.28305579256058,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,60,1.29477851919103,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,65,1.30807087402608,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,70,1.32109327341872,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,75,1.3353490802987,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,80,1.34793386254425,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,85,1.36338980919343,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,90,1.3812867035919,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,95,1.40201134768154,1.39863383052124
+high_contrast,Global,0.2,PG,RMI-1D,Block1mm,100,1.39863383052124,1.39863383052124
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,5,1.38039395589777,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,10,1.40397732954395,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,15,1.42666680451058,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,20,1.43516795128659,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,25,1.43924346132396,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,30,1.44123139173044,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,35,1.44223468085836,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,40,1.44323380903268,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,45,1.44384618977296,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,50,1.44377229376032,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,55,1.44315589847392,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,60,1.44190479509054,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,65,1.44043750500098,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,70,1.43889471388783,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,75,1.43718059810105,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,80,1.43483943907292,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,85,1.43222573302397,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,90,1.42956812208202,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,95,1.42519658338338,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Pixel,100,1.41426679796024,1.41426679796026
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,5,1.50405541183606,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,10,1.49044712202121,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,15,1.48340460816854,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,20,1.46901250903958,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,25,1.46869170803555,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,30,1.4691696441744,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,35,1.46715253330143,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,40,1.46545539009224,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,45,1.46460819970386,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,50,1.45953398758252,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,55,1.45592467794339,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,60,1.45273613458991,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,65,1.45436522697083,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,70,1.45224090159895,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,75,1.44909429627459,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,80,1.44819988734081,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,85,1.44954939546291,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,90,1.44781095268064,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,95,1.43780708475989,1.4232758507558
+high_contrast,Global,0.2,AC,Phase Planarity Q,Block1mm,100,1.4232758507558,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,5,1.33242289465242,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,10,1.33202526114139,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,15,1.31251929352326,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,20,1.29069091009872,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,25,1.28278687391541,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,30,1.28208879205236,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,35,1.28482292988369,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,40,1.29020550005194,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,45,1.29842821356289,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,50,1.30838792140093,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,55,1.31912355733738,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,60,1.32999862533074,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,65,1.34059518883868,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,70,1.34943561489906,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,75,1.35996458862927,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,80,1.37080785059678,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,85,1.38268064809806,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,90,1.39732507679772,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,95,1.41863881410021,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Pixel,100,1.41426679796027,1.41426679796026
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,5,1.20920243467269,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,10,1.19377923665824,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,15,1.20382537020402,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,20,1.21485199414071,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,25,1.22772120811766,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,30,1.23846446537299,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,35,1.25187968209989,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,40,1.26459913194629,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,45,1.27938651479149,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,50,1.29569946077623,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,55,1.30942892560762,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,60,1.32069868679211,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,65,1.33351115537292,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,70,1.3469602175358,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,75,1.36053504813252,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,80,1.37304074254668,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,85,1.38834397245098,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,90,1.40622501814895,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,95,1.42658814337585,1.4232758507558
+high_contrast,Global,0.2,AC,RMI-1D,Block1mm,100,1.4232758507558,1.4232758507558
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,5,4.06837877100274,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,10,4.06552017428605,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,15,4.06401107728805,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,20,4.06362887197392,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,25,4.06309542905222,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,30,4.06258214672354,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,35,4.06209170685437,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,40,4.06197386625083,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,45,4.06215197281415,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,50,4.06201007162131,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,55,4.06197328787676,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,60,4.06189774811337,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,65,4.06208684520363,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,70,4.06208147102101,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,75,4.06234466946432,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,80,4.06263396458717,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,85,4.06271935293155,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,90,4.06286448727317,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,95,4.06275101005624,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Pixel,100,4.06307695571803,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,5,4.05090268703693,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,10,4.06984933346998,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,15,4.06594385001834,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,20,4.06189972829463,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,25,4.06245435716796,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,30,4.06213797459718,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,35,4.06054386440257,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,40,4.05977129141851,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,45,4.06228700911134,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,50,4.0628306012871,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,55,4.06128833596196,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,60,4.06308483619393,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,65,4.06171153176201,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,70,4.0626778965108,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,75,4.0609482905837,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,80,4.06014737676759,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,85,4.06227373059259,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,90,4.0629148038737,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,95,4.06370575946414,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,Phase Planarity Q,Block1mm,100,4.06406885766363,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,5,4.06592338903269,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,10,4.063741530337,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,15,4.06339047397867,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,20,4.06389941155069,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,25,4.0636339312088,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,30,4.06355645449936,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,35,4.06366392716909,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,40,4.0636128827506,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,45,4.06335563454629,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,50,4.06327249136801,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,55,4.06329483515841,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,60,4.06319228134805,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,65,4.06312154260845,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,70,4.0628715236048,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,75,4.06279883381014,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,80,4.06271795257431,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,85,4.06270333262468,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,90,4.06276959770673,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,95,4.06284434746616,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Pixel,100,4.06307695571803,4.06307695571803
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,5,4.05766148438524,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,10,4.07825231002231,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,15,4.0702037414229,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,20,4.0702812816116,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,25,4.07381183909684,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,30,4.06806185233818,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,35,4.06530045177099,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,40,4.06469253024856,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,45,4.06454415143598,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,50,4.06544391635173,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,55,4.0637055154234,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,60,4.06351955519528,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,65,4.06206520141956,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,70,4.06274593102958,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,75,4.0629820674937,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,80,4.06348351138095,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,85,4.06417510707884,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,90,4.06346028105108,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,95,4.06382350883838,4.06406885766363
+high_contrast,InclusionCore,-0.2,PG,RMI-1D,Block1mm,100,4.06406885766363,4.06406885766363
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,5,4.06248775775346,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,10,4.05832765234308,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,15,4.05630311194037,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,20,4.05574608022107,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,25,4.0555280774074,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,30,4.05514522921558,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,35,4.05472726225937,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,40,4.05462893932887,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,45,4.05476333040688,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,50,4.05463031601288,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,55,4.0545132616376,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,60,4.05434146450763,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,65,4.05440996528488,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,70,4.05442833538073,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,75,4.05467279482236,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,80,4.05494594041377,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,85,4.05498015549924,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,90,4.05520575224555,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,95,4.05532392644474,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Pixel,100,4.05566639753992,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,5,4.03754172722174,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,10,4.05752635130459,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,15,4.05782723830846,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,20,4.05486093813583,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,25,4.05566384885361,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,30,4.05622883095726,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,35,4.05348890137521,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,40,4.05197397945549,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,45,4.05467644618401,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,50,4.05474136513676,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,55,4.05274090793109,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,60,4.05420852275503,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,65,4.05396124587493,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,70,4.05493270369852,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,75,4.05425440846101,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,80,4.05330333966588,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,85,4.05508937427519,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,90,4.05533135629532,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,95,4.0563734113397,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,Phase Planarity Q,Block1mm,100,4.05654878758197,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,5,4.05821417095427,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,10,4.05594161566377,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,15,4.05548657764737,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,20,4.05597909371877,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,25,4.05589789652499,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,30,4.05584827358998,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,35,4.05596688355188,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,40,4.05591252830545,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,45,4.0556911076943,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,50,4.05566982681091,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,55,4.05567543854415,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,60,4.05557053960221,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,65,4.05555224495733,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,70,4.05537639731187,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,75,4.0553382081,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,80,4.05529933276132,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,85,4.05531293444036,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,90,4.05539096763167,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,95,4.05540835129168,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Pixel,100,4.05566639753991,4.0556663975399
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,5,4.04546093891988,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,10,4.0679748364672,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,15,4.06010903011933,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,20,4.06079184010707,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,25,4.06378172362761,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,30,4.06021161883764,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,35,4.05903084468605,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,40,4.05748811767532,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,45,4.05815042878365,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,50,4.05902925371877,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,55,4.05702364167526,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,60,4.05713297771661,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,65,4.05614473042543,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,70,4.05643221013921,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,75,4.05622577552912,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,80,4.0564071280458,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,85,4.057063276714,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,90,4.05630443679129,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,95,4.05665506861804,4.05654878758197
+high_contrast,InclusionCore,-0.2,AC,RMI-1D,Block1mm,100,4.05654878758197,4.05654878758197
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,5,3.10626389283889,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,10,3.10277340677665,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,15,3.1024859160805,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,20,3.10396538493441,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,25,3.10352549391219,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,30,3.10311354943073,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,35,3.10475067085386,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,40,3.10609745852746,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,45,3.10621685536383,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,50,3.10619695384603,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,55,3.10633787337609,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,60,3.10738166870219,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,65,3.10817588908818,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,70,3.10778424495669,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,75,3.10700575392729,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,80,3.10692641983488,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,85,3.10765654708894,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,90,3.10780203017116,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,95,3.1085449519303,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Pixel,100,3.10953090202216,3.10953090202217
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,5,3.15960845627996,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,10,3.13685796450448,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,15,3.12019489019467,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,20,3.10704502385994,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,25,3.10229879599393,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,30,3.10191506378522,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,35,3.10953762406345,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,40,3.1115772879875,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,45,3.11437743116132,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,50,3.11385388244898,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,55,3.1192028732709,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,60,3.12389058063309,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,65,3.12461494825327,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,70,3.12670002270357,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,75,3.1257793041063,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,80,3.12769880783519,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,85,3.12638750154193,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,90,3.12583476075077,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,95,3.12418236850759,3.12564709423841
+high_contrast,InclusionCore,0,PG,Phase Planarity Q,Block1mm,100,3.12564709423841,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,5,3.12503187742003,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,10,3.12274588506723,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,15,3.11996815965623,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,20,3.11892903412672,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,25,3.11745324242797,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,30,3.11763133799587,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,35,3.11653203416664,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,40,3.11627685626097,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,45,3.11531989705929,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,50,3.11471283962511,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,55,3.11408938155436,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,60,3.11345605761308,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,65,3.11309756270309,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,70,3.11266252790334,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,75,3.11208650048926,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,80,3.1113905356733,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,85,3.1103910849654,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,90,3.10969223150037,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,95,3.10941739021828,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Pixel,100,3.10953090202217,3.10953090202217
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,5,3.18752352829934,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,10,3.15636809988382,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,15,3.15487605911466,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,20,3.14703108854019,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,25,3.14014772302808,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,30,3.1349216234617,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,35,3.13219782726201,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,40,3.1309736443301,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,45,3.12472260023678,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,50,3.12092215778834,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,55,3.12354181771183,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,60,3.12195521883577,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,65,3.12385680744366,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,70,3.12621670253785,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,75,3.13001204068909,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,80,3.13461412600031,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,85,3.13277270665749,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,90,3.13037248515746,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,95,3.12637529071878,3.12564709423841
+high_contrast,InclusionCore,0,PG,RMI-1D,Block1mm,100,3.12564709423841,3.12564709423841
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,5,3.10252342479882,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,10,3.10070154812006,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,15,3.1011226126212,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,20,3.10265831208189,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,25,3.10248365518186,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,30,3.10236801960466,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,35,3.10397113241948,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,40,3.10521839348262,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,45,3.10543084524804,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,50,3.1056212501044,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,55,3.10582473601718,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,60,3.10682094637604,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,65,3.10753496692552,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,70,3.10715139274394,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,75,3.10640732087995,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,80,3.10628266021782,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,85,3.10686647562062,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,90,3.10705839407771,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,95,3.10767228812581,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Pixel,100,3.10829997570986,3.10829997570987
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,5,3.15694924544379,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,10,3.13661150798929,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,15,3.12328144194205,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,20,3.11057225518571,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,25,3.10395363041107,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,30,3.10182369694707,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,35,3.10992701122626,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,40,3.11212714500308,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,45,3.11298767353936,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,50,3.1131323042929,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,55,3.11844736835432,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,60,3.12154022828301,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,65,3.12192657208849,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,70,3.12344344349967,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,75,3.1228038325216,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,80,3.12502536556995,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,85,3.12410044134513,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,90,3.12396885614471,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,95,3.12233550421366,3.12312037998063
+high_contrast,InclusionCore,0,AC,Phase Planarity Q,Block1mm,100,3.12312037998063,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,5,3.12120152757861,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,10,3.11978543030998,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,15,3.1177914452022,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,20,3.11653346413429,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,25,3.11518846320832,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,30,3.11571106350702,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,35,3.11459696922083,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,40,3.11436449589146,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,45,3.11339206371044,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,50,3.11269447645077,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,55,3.11223541937345,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,60,3.11151998330792,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,65,3.11129379370507,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,70,3.11088435475959,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,75,3.11035997358917,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,80,3.10974349505849,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,85,3.10888013265184,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,90,3.10836709517881,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,95,3.10825410961502,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Pixel,100,3.10829997570988,3.10829997570987
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,5,3.17940095013498,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,10,3.14815049704576,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,15,3.15067775938966,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,20,3.1424849189531,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,25,3.13660742945036,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,30,3.13290526793572,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,35,3.13084185950402,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,40,3.13026130432608,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,45,3.1244285731954,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,50,3.12022472056297,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,55,3.1220478896219,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,60,3.12072787065674,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,65,3.12175163365993,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,70,3.12411627114766,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,75,3.12677811319059,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,80,3.13014472960884,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,85,3.12705028874356,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,90,3.12682994913182,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,95,3.12342708310567,3.12312037998063
+high_contrast,InclusionCore,0,AC,RMI-1D,Block1mm,100,3.12312037998063,3.12312037998063
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,5,0.902731627920164,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,10,0.90363212748049,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,15,0.907757546042991,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,20,0.913792329441078,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,25,0.915375409610855,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,30,0.916936674025867,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,35,0.925551406836986,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,40,0.934041904009911,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,45,0.934012436028381,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,50,0.935117620837331,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,55,0.935425499700998,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,60,0.941169951565062,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,65,0.943224825641803,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,70,0.941029287410543,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,75,0.936817247053239,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,80,0.935210020334615,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,85,0.937448475947515,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,90,0.938370875621124,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,95,0.94222645618824,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Pixel,100,0.943769784244954,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,5,1.15815412330969,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,10,1.0239940092753,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,15,0.946778355251376,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,20,0.938490642462987,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,25,0.912469466871909,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,30,0.955446646246552,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,35,0.954255751260092,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,40,0.964842789963459,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,45,0.982315870013821,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,50,0.966238683092326,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,55,0.991832908509073,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,60,1.00016771223587,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,65,1.00848876192855,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,70,1.01025657616102,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,75,1.01431609305394,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,80,1.02773319187833,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,85,1.01685912355289,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,90,1.01521069279541,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,95,1.00445786370165,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,Phase Planarity Q,Block1mm,100,1.00578491169757,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,5,1.37856912735733,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,10,1.32473389357905,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,15,1.28138424803504,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,20,1.2495549131918,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,25,1.22100692245841,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,30,1.19636541192061,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,35,1.17420157080041,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,40,1.15352301038998,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,45,1.13396141404017,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,50,1.11501464238311,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,55,1.09620271331833,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,60,1.07756030100803,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,65,1.05922670512029,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,70,1.04170107245827,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,75,1.02438359295928,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,80,1.00720601728918,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,85,0.990087027743214,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,90,0.973751566457985,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,95,0.958432824283282,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Pixel,100,0.943769784244957,0.943769784244951
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,5,1.39908465040849,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,10,1.40253733662462,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,15,1.345069901006,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,20,1.29682337591811,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,25,1.27210493420528,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,30,1.25464712712684,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,35,1.23888613344977,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,40,1.22421511448052,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,45,1.20573932255411,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,50,1.19099761928611,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,55,1.17525738679674,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,60,1.15672991259724,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,65,1.13510478593793,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,70,1.11501483263826,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,75,1.09613138891962,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,80,1.07661706394875,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,85,1.06021264212911,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,90,1.04162882539058,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,95,1.02385492239193,1.00578491169757
+high_contrast,InclusionCore,0.2,PG,RMI-1D,Block1mm,100,1.00578491169757,1.00578491169757
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,5,0.954573194415752,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,10,0.964206465803454,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,15,0.971580809084711,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,20,0.97829802643251,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,25,0.978772594681289,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,30,0.980055926255157,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,35,0.987681102348416,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,40,0.995007313630254,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,45,0.995231996915185,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,50,0.997206728504905,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,55,0.997524229474562,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,60,1.00311397939586,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,65,1.00533466174307,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,70,1.00322898494056,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,75,0.999539377596072,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,80,0.997955374802238,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,85,0.999952111044129,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,90,1.00061731399156,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,95,1.00257136371479,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Pixel,100,1.00325598491938,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,5,1.23929267354113,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,10,1.11684120838038,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,15,1.02947102036383,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,20,1.01643862885099,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,25,0.983761990442209,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,30,1.02632536339507,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,35,1.01733817978624,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,40,1.03126164465071,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,45,1.04143099493738,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,50,1.02957072689317,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,55,1.05620462821677,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,60,1.06150886188374,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,65,1.06303924147375,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,70,1.06373676628858,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,75,1.06300390772586,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,80,1.07641337590161,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,85,1.0692003961921,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,90,1.07000253013081,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,95,1.05964962009778,1.06045647728
+high_contrast,InclusionCore,0.2,AC,Phase Planarity Q,Block1mm,100,1.06045647728,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,5,1.44790959563737,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,10,1.38262979518216,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,15,1.33174090999937,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,20,1.29574196883748,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,25,1.26632347354476,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,30,1.24123973634491,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,35,1.21843083892046,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,40,1.19754318160098,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,45,1.17782116945768,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,50,1.15908062301486,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,55,1.14125795104653,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,60,1.12424010015819,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,65,1.10804172889876,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,70,1.09219159675808,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,75,1.07654591510226,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,80,1.06126886935788,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,85,1.0461571910374,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,90,1.03143157915437,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,95,1.01724744706236,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Pixel,100,1.00325598491938,1.00325598491938
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,5,1.46875907535225,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,10,1.47342561426683,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,15,1.3953813006916,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,20,1.35480307533091,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,25,1.32555050569976,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,30,1.30398205845865,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,35,1.28171732644246,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,40,1.26108673001946,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,45,1.2475029912795,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,50,1.2310673411113,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,55,1.21227394886928,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,60,1.19398132213162,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,65,1.17550527587841,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,70,1.15786677905411,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,75,1.14001214329535,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,80,1.12511019043949,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,85,1.10935387208936,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,90,1.09271039658643,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,95,1.07649588761959,1.06045647728
+high_contrast,InclusionCore,0.2,AC,RMI-1D,Block1mm,100,1.06045647728,1.06045647728
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,5,0.49766842631165,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,10,0.504079447779782,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,15,0.508585863988572,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,20,0.508854651455932,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,25,0.510061547942274,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,30,0.51109727791364,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,35,0.511756475789418,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,40,0.512081793582391,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,45,0.512208233538859,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,50,0.512401003457476,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,55,0.512685894341332,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,60,0.513443992967696,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,65,0.514472575236712,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,70,0.514889779252086,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,75,0.515014089747185,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,80,0.514933352805588,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,85,0.514640388688342,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,90,0.513157638134944,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,95,0.511049293792398,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Pixel,100,0.504481012400244,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,5,0.495995853573809,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,10,0.488859450145433,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,15,0.500515977453925,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,20,0.499213686246237,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,25,0.504859886873401,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,30,0.505154647779222,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,35,0.504791201957831,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,40,0.506866786919404,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,45,0.503909441239693,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,50,0.507476801084561,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,55,0.50737271233015,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,60,0.508129877555386,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,65,0.505012746821143,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,70,0.51051061628365,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,75,0.510008963046995,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,80,0.509321543451602,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,85,0.507977942504688,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,90,0.502831756436586,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,95,0.499137575999789,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,Phase Planarity Q,Block1mm,100,0.491377331588684,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,5,0.510277337044664,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,10,0.510676335181114,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,15,0.507920449783014,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,20,0.505870225737576,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,25,0.504548191028019,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,30,0.503446796506075,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,35,0.502784742610836,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,40,0.502581021673861,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,45,0.502919817248638,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,50,0.503733840500617,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,55,0.504774871033402,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,60,0.505876425642102,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,65,0.507058077438936,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,70,0.507993169819598,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,75,0.508888091654557,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,80,0.509948812819926,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,85,0.511567141722662,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,90,0.511052423391351,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,95,0.505877907469714,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Pixel,100,0.504481012400246,0.504481012400249
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,5,0.452373111725416,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,10,0.454191530440997,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,15,0.469748749370045,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,20,0.473836225699184,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,25,0.488106120853148,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,30,0.483748357986344,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,35,0.48380446873437,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,40,0.488268307390403,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,45,0.492885830217576,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,50,0.490501421874876,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,55,0.490751673083479,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,60,0.493265013118892,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,65,0.492529035565665,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,70,0.492084557940295,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,75,0.494502612385897,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,80,0.496396387497606,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,85,0.494174022824556,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,90,0.497922215800253,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,95,0.498621330841115,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,PG,RMI-1D,Block1mm,100,0.491377331588684,0.491377331588685
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,5,0.494649395921989,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,10,0.500560733269369,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,15,0.504139302044549,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,20,0.504036423497306,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,25,0.505051736846267,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,30,0.505944976612981,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,35,0.506512643997307,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,40,0.506793127266149,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,45,0.506880732629984,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,50,0.507046094134935,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,55,0.507325306140784,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,60,0.508090369605349,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,65,0.50916149665054,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,70,0.509589186727561,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,75,0.509700537400286,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,80,0.509581259777066,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,85,0.509233792056055,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,90,0.507665016751891,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,95,0.505683221002705,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Pixel,100,0.502625053884133,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,5,0.490108668772648,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,10,0.482116571720813,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,15,0.493957790915454,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,20,0.492529901790732,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,25,0.498660421178638,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,30,0.499105341687579,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,35,0.498718065687563,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,40,0.5010426476926,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,45,0.497933891971888,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,50,0.501541960247603,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,55,0.501455966464896,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,60,0.50233053528236,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,65,0.49930362830054,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,70,0.504657074727326,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,75,0.504190939767609,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,80,0.503635520385446,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,85,0.502463141984863,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,90,0.497022602150767,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,95,0.493028555671801,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,Phase Planarity Q,Block1mm,100,0.488908166083961,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,5,0.503843061619147,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,10,0.504319184300198,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,15,0.501521981602364,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,20,0.499458371763467,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,25,0.498132809318313,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,30,0.497049982912841,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,35,0.496385799274049,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,40,0.496144983066753,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,45,0.496445564117041,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,50,0.497213758498915,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,55,0.498219766855326,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,60,0.499290135655271,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,65,0.500481039121796,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,70,0.5014504634856,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,75,0.502390479941882,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,80,0.50354528474501,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,85,0.505423412134724,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,90,0.505049745787333,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,95,0.500475818315994,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Pixel,100,0.502625053884142,0.50262505388414
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,5,0.445703758888836,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,10,0.448174333217433,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,15,0.463760902783991,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,20,0.467725640593678,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,25,0.481673865209237,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,30,0.477562293575291,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,35,0.477854833243093,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,40,0.482097752378448,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,45,0.48655518342196,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,50,0.484183397344514,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,55,0.484390621233621,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,60,0.486892470036727,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,65,0.486142670209458,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,70,0.485715056878917,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,75,0.488146193082695,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,80,0.490162899320985,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,85,0.487841277472297,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,90,0.491583781823711,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,95,0.491612578337692,0.488908166083961
+high_contrast,BackgroundInterior,-0.2,AC,RMI-1D,Block1mm,100,0.488908166083961,0.488908166083961
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,5,0.176806523396512,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,10,0.171738028640564,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,15,0.169761370259695,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,20,0.170763518382699,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,25,0.171075490040488,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,30,0.171028840549388,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,35,0.171073947787552,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,40,0.171076977600601,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,45,0.171256861089526,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,50,0.171546179239058,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,55,0.171656705475846,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,60,0.171975868900011,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,65,0.17240885243929,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,70,0.173181344113272,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,75,0.174213802861716,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,80,0.175519044251037,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,85,0.177275520351856,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,90,0.180056317981921,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,95,0.184223170428692,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Pixel,100,0.193030748474612,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,5,0.174435077638583,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,10,0.182737588508665,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,15,0.170032218209574,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,20,0.16809112505744,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,25,0.163123133088667,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,30,0.165089587772962,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,35,0.166431372133935,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,40,0.167831377646501,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,45,0.169788374504141,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,50,0.168956383574228,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,55,0.168683637185746,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,60,0.170074820338008,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,65,0.17108407108344,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,70,0.171274331463273,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,75,0.173626539695309,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,80,0.176667832577204,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,85,0.180075104609856,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,90,0.185068547333259,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,95,0.194125900360775,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,Phase Planarity Q,Block1mm,100,0.204375758498957,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,5,0.154424606497632,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,10,0.159642960202267,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,15,0.161952220692024,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,20,0.163667364467919,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,25,0.165269453388453,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,30,0.166229021286213,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,35,0.166867201402662,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,40,0.16681265892849,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,45,0.16694375592065,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,50,0.166795957056183,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,55,0.16667987310034,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,60,0.166650983471291,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,65,0.166884070273567,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,70,0.167475664411589,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,75,0.168422690197458,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,80,0.170358579924477,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,85,0.174169460551567,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,90,0.181383756927936,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,95,0.189568060957872,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Pixel,100,0.193030748474612,0.193030748474611
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,5,0.211848987992334,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,10,0.20037589609208,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,15,0.185390474168291,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,20,0.176013686252153,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,25,0.170164734201483,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,30,0.168785094870422,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,35,0.167907262604105,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,40,0.167252805330416,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,45,0.166344488906342,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,50,0.170088010607807,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,55,0.169842178463428,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,60,0.169027465951902,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,65,0.169516483299397,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,70,0.170866859361865,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,75,0.171272951543907,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,80,0.174323412223326,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,85,0.1780614959822,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,90,0.181460265387175,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,95,0.189477349662444,0.204375758498956
+high_contrast,BackgroundInterior,0,PG,RMI-1D,Block1mm,100,0.204375758498956,0.204375758498956
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,5,0.183348826764019,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,10,0.178148355637889,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,15,0.176444524702795,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,20,0.177408170288612,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,25,0.177664487171488,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,30,0.177550424212123,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,35,0.177548837778491,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,40,0.177545382332615,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,45,0.177793822158958,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,50,0.178086526308113,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,55,0.178176130975105,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,60,0.178445520878411,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,65,0.178812952335544,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,70,0.179535196999756,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,75,0.180518160764652,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,80,0.181760814806014,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,85,0.183428562142947,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,90,0.186121668115683,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,95,0.19020536328993,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Pixel,100,0.198955203839462,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,5,0.18123347054346,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,10,0.190944481684682,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,15,0.178044526732439,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,20,0.176656893344061,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,25,0.170927683780703,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,30,0.173050550591438,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,35,0.174383188291255,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,40,0.175613900905392,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,45,0.177562086366783,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,50,0.176458553716304,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,55,0.176031894714267,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,60,0.177368210762607,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,65,0.178180396635101,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,70,0.178066804299919,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,75,0.180411383710631,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,80,0.183460658154306,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,85,0.186655670880901,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,90,0.19151416154011,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,95,0.200161216097208,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,Phase Planarity Q,Block1mm,100,0.210464821042321,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,5,0.161445800876742,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,10,0.167068643139618,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,15,0.169400112485047,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,20,0.171156753565875,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,25,0.172785104996508,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,30,0.173823822437486,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,35,0.17448199807805,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,40,0.174561636976504,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,45,0.174702526128878,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,50,0.174591060921176,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,55,0.174485493113285,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,60,0.174356534463627,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,65,0.174600204551248,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,70,0.17501035677781,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,75,0.175785808170227,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,80,0.177447927539221,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,85,0.180779741890182,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,90,0.187549398697588,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,95,0.195573504194972,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Pixel,100,0.198955203839462,0.198955203839462
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,5,0.214388186256435,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,10,0.205777801857583,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,15,0.194783393183323,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,20,0.183455100659802,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,25,0.179595018354311,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,30,0.175023699036924,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,35,0.175854963030255,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,40,0.176284877688881,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,45,0.174917415950231,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,50,0.177995448123117,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,55,0.17843253155065,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,60,0.177593853756385,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,65,0.177303359785965,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,70,0.179221458795906,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,75,0.179353964141727,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,80,0.181757179018576,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,85,0.185779210808474,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,90,0.188333653565359,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,95,0.195740795754696,0.210464821042321
+high_contrast,BackgroundInterior,0,AC,RMI-1D,Block1mm,100,0.210464821042321,0.210464821042321
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,5,1.33839435274177,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,10,1.35251686503122,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,15,1.37400267256267,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,20,1.38396447228097,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,25,1.38822970175408,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,30,1.39074144080225,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,35,1.39219428576248,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,40,1.39291468487947,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,45,1.39329271229727,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,50,1.3934785863995,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,55,1.39297736500777,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,60,1.39181021826136,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,65,1.39044477332183,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,70,1.38907383379704,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,75,1.3875695527148,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,80,1.38543654827801,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,85,1.38293645028632,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,90,1.38022851046657,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,95,1.37492956535214,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Pixel,100,1.36202070682628,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,5,1.44231809339072,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,10,1.44002046168563,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,15,1.42998176422336,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,20,1.41706324612605,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,25,1.4174034165868,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,30,1.41350928653854,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,35,1.41480295499086,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,40,1.41326987480051,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,45,1.41003500212428,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,50,1.41110132070919,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,55,1.40741218028537,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,60,1.40493112835987,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,65,1.40406076733001,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,70,1.40262512630634,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,75,1.40256751991651,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,80,1.39994792374352,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,85,1.39990160469612,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,90,1.39871129690436,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,95,1.38730807696585,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,Phase Planarity Q,Block1mm,100,1.36900331332593,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,5,1.3032763580741,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,10,1.31098537339524,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,15,1.29355765328937,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,20,1.26699207038087,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,25,1.2531004759187,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,30,1.249161691227,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,35,1.24966198991648,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,40,1.2528825645877,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,45,1.25796128566027,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,50,1.26499873239033,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,55,1.27373400826411,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,60,1.28328421031295,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,65,1.2933069609674,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,70,1.30353486240095,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,75,1.31324985492148,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,80,1.32181464045066,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,85,1.33090429961197,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,90,1.34052189046124,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,95,1.35048649717256,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Pixel,100,1.3620207068263,1.36202070682629
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,5,1.18672793204552,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,10,1.14611356913207,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,15,1.16182914357161,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,20,1.17447984132365,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,25,1.18573028647947,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,30,1.19768575088753,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,35,1.20873778477233,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,40,1.22042761572044,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,45,1.23059419963413,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,50,1.24500537856329,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,55,1.2598751433569,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,60,1.27239363115038,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,65,1.28337293826991,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,70,1.29468852729814,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,75,1.30573327027544,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,80,1.31833577710793,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,85,1.33095081272395,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,90,1.34228043581395,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,95,1.35366056560273,1.36900331332593
+high_contrast,BackgroundInterior,0.2,PG,RMI-1D,Block1mm,100,1.36900331332593,1.36900331332593
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,5,1.36458616718179,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,10,1.37703348179991,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,15,1.39698515761892,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,20,1.40642602693105,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,25,1.41054813438087,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,30,1.41295627143016,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,35,1.41440546308134,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,40,1.41510048562464,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,45,1.41550566764387,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,50,1.41575151320155,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,55,1.41528808145115,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,60,1.41420388028683,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,65,1.41290868878046,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,70,1.41164939463928,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,75,1.4102865586959,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,80,1.40830785660912,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,85,1.40598478800154,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,90,1.4034746879477,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,95,1.39848291486419,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Pixel,100,1.38636114161658,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,5,1.46095110019277,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,10,1.46162978692106,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,15,1.45185322648714,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,20,1.43906118714578,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,25,1.43939826359811,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,30,1.43544168262533,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,35,1.43681075184852,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,40,1.43536029050217,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,45,1.43189149084536,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,50,1.43316726729627,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,55,1.42958921102472,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,60,1.42732039066205,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,65,1.42648702501544,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,70,1.4253865178057,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,75,1.42539428785602,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,80,1.42277376331851,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,85,1.42265966972725,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,90,1.42175060628315,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,95,1.4109690806939,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,Phase Planarity Q,Block1mm,100,1.39380642159686,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,5,1.32416400080596,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,10,1.33417136181773,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,15,1.31889617397566,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,20,1.29922684939999,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,25,1.2847502480289,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,30,1.27932993847539,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,35,1.27894938936174,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,40,1.28123309867075,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,45,1.28522010979864,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,50,1.29127867829175,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,55,1.29925879933895,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,60,1.30856057767747,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,65,1.31826982780627,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,70,1.32820240417395,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,75,1.33777859564539,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,80,1.34542773352109,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,85,1.35475138759657,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,90,1.36440414514098,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,95,1.37443041836429,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Pixel,100,1.3863611416166,1.3863611416166
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,5,1.21100977155665,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,10,1.19517450763501,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,15,1.19507559023212,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,20,1.20859039635313,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,25,1.21829497082249,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,30,1.22772979708352,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,35,1.2391988283896,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,40,1.25050643983065,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,45,1.25837606995775,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,50,1.27036344715816,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,55,1.28527187961965,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,60,1.29977550440827,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,65,1.30946222625033,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,70,1.31967010298097,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,75,1.33092166176159,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,80,1.34308523783555,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,85,1.35499976778229,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,90,1.36657712465892,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,95,1.37816376017359,1.39380642159686
+high_contrast,BackgroundInterior,0.2,AC,RMI-1D,Block1mm,100,1.39380642159685,1.39380642159686
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,5,0.228500256153104,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,10,0.225098701484184,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,15,0.210056482910644,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,20,0.209696085002556,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,25,0.205307581387976,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,30,0.20353745432651,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,35,0.202825384017888,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,40,0.20272454015693,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,45,0.206514315791943,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,50,0.207623118639105,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,55,0.208485373986369,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,60,0.21007126012157,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,65,0.210365144043717,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,70,0.212018718523354,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,75,0.213082750621403,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,80,0.214676089615999,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,85,0.217401783166212,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,90,0.224228245957202,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,95,0.235882482839458,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Pixel,100,0.250239932233825,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,5,0.190380929450309,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,10,0.191822685292496,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,15,0.188045624740903,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,20,0.190570792447768,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,25,0.190945706959551,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,30,0.185978443792898,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,35,0.182038470588467,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,40,0.181875027768314,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,45,0.189871273391516,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,50,0.192072489224607,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,55,0.217623459333307,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,60,0.222786674873926,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,65,0.222679577051425,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,70,0.225716223500953,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,75,0.23810857170285,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,80,0.2375760176126,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,85,0.251759004550134,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,90,0.27217307863766,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,95,0.296294710979266,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,Phase Planarity Q,Block1mm,100,0.30878272188858,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,5,0.164274960706838,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,10,0.167089461366883,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,15,0.168138519589498,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,20,0.167767255362938,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,25,0.16885716884913,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,30,0.168721688360551,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,35,0.168782998575306,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,40,0.168399456848327,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,45,0.167731744904734,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,50,0.166505185425742,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,55,0.165518055112095,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,60,0.164159668244275,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,65,0.163816437649525,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,70,0.163132703416318,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,75,0.164269925270445,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,80,0.16891250575216,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,85,0.184090426494406,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,90,0.203954702524947,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,95,0.214748967889724,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Pixel,100,0.250239932233825,0.250239932233824
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,5,0.200968191154961,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,10,0.201494585747533,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,15,0.191424026137846,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,20,0.185945140082017,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,25,0.189232823597567,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,30,0.185487888543891,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,35,0.182326337031508,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,40,0.186222925080668,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,45,0.186301255653853,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,50,0.187029153701749,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,55,0.181021781055116,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,60,0.181157557688462,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,65,0.182260962872356,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,70,0.180741348210745,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,75,0.173679518541533,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,80,0.181865788741287,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,85,0.209398736317788,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,90,0.239740869208663,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,95,0.274573628583647,0.30878272188858
+high_contrast,LateralBoundary,-0.2,PG,RMI-1D,Block1mm,100,0.30878272188858,0.30878272188858
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,5,0.236606146032932,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,10,0.232579272841534,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,15,0.214702422245338,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,20,0.212466856739595,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,25,0.206818785797383,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,30,0.204654858559369,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,35,0.203676699078303,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,40,0.203270369428167,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,45,0.207003680542024,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,50,0.208012533481995,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,55,0.20872429345794,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,60,0.210351054776608,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,65,0.210794307566267,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,70,0.212483879436923,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,75,0.213522278329233,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,80,0.215077774536198,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,85,0.217922901914094,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,90,0.224782518105584,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,95,0.236739996228054,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Pixel,100,0.251333319359379,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,5,0.191548359367046,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,10,0.188507740282464,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,15,0.185891397276735,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,20,0.187479108669486,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,25,0.187904607660519,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,30,0.184103291895854,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,35,0.179633342665806,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,40,0.179171910734414,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,45,0.188401631277022,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,50,0.190718353961605,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,55,0.21643489665404,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,60,0.220761468607471,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,65,0.220569410616335,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,70,0.22386196971159,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,75,0.236190820599871,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,80,0.236345364323679,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,85,0.250525655740975,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,90,0.271107162194906,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,95,0.296058141431375,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,Phase Planarity Q,Block1mm,100,0.30884368796805,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,5,0.167858352448563,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,10,0.170351210958604,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,15,0.170352533800794,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,20,0.170611523516434,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,25,0.170205414913107,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,30,0.17032969798063,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,35,0.169759075136445,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,40,0.169074332219855,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,45,0.168490068524186,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,50,0.167210734486713,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,55,0.165879274778748,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,60,0.164946862552582,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,65,0.163770937319058,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,70,0.163112637029866,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,75,0.163750312236607,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,80,0.168205857665647,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,85,0.183244845266876,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,90,0.202162236897984,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,95,0.214322361279247,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Pixel,100,0.251333319359378,0.251333319359378
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,5,0.199705235069204,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,10,0.195334120523611,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,15,0.188181085506795,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,20,0.182693254960755,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,25,0.187180337719402,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,30,0.183166575877027,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,35,0.181101530661475,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,40,0.185515372136274,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,45,0.18519089233361,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,50,0.185711548957063,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,55,0.180133778302794,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,60,0.179720318134556,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,65,0.181101722393762,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,70,0.179728143182149,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,75,0.171790356098778,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,80,0.17944730026627,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,85,0.206585680292394,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,90,0.23693321303075,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,95,0.272740609885157,0.30884368796805
+high_contrast,LateralBoundary,-0.2,AC,RMI-1D,Block1mm,100,0.30884368796805,0.30884368796805
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,5,0.709112595833009,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,10,0.705839906496053,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,15,0.696152457384387,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,20,0.693800856356101,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,25,0.686158759224407,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,30,0.684185060113598,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,35,0.683369119649344,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,40,0.682192251272989,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,45,0.683464596623099,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,50,0.682594390205666,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,55,0.681480987392659,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,60,0.680902060007276,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,65,0.680140790788032,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,70,0.679822554312083,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,75,0.679218003779984,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,80,0.678658517538093,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,85,0.679338847707001,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,90,0.680932921050164,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,95,0.685077331175266,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Pixel,100,0.68980792895174,0.689807928951742
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,5,0.697463444270839,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,10,0.695346330470412,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,15,0.696736916689266,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,20,0.695141184561204,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,25,0.697062734323791,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,30,0.695314785105001,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,35,0.688145235470749,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,40,0.688051395153108,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,45,0.694999104142453,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,50,0.693580602766782,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,55,0.7058104911599,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,60,0.706635473093858,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,65,0.704074162661756,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,70,0.70487895744886,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,75,0.709483850360215,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,80,0.708301029655557,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,85,0.712088819626009,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,90,0.721052262722232,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,95,0.730773902124825,0.735481760315273
+high_contrast,LateralBoundary,0,PG,Phase Planarity Q,Block1mm,100,0.735481760315273,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,5,0.6468923104261,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,10,0.660785150455459,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,15,0.659343099151741,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,20,0.656507821428781,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,25,0.653481462052323,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,30,0.651371808349631,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,35,0.650043133471411,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,40,0.646513677385475,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,45,0.643630338795517,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,50,0.640194719708759,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,55,0.637606080632322,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,60,0.635535209969778,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,65,0.633942391424634,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,70,0.633012376246997,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,75,0.634022725034645,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,80,0.639230223525051,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,85,0.64754079553009,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,90,0.656440621518683,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,95,0.672622070794717,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Pixel,100,0.689807928951742,0.689807928951742
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,5,0.699522428852325,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,10,0.689092795357352,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,15,0.699205989582861,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,20,0.681722999157334,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,25,0.681305875883557,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,30,0.684476570400025,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,35,0.67750297715686,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,40,0.681436370512789,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,45,0.680360983192455,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,50,0.67151945095913,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,55,0.665028676696812,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,60,0.666384899148652,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,65,0.665008373746512,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,70,0.657050524141018,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,75,0.659322076076614,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,80,0.669082647150217,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,85,0.686171980103017,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,90,0.704064266558295,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,95,0.719205773636793,0.735481760315273
+high_contrast,LateralBoundary,0,PG,RMI-1D,Block1mm,100,0.735481760315273,0.735481760315273
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,5,0.7247097287431,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,10,0.721311407102966,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,15,0.709949011765257,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,20,0.706459553960725,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,25,0.698594172254607,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,30,0.696778384896492,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,35,0.695969098090863,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,40,0.69481467331649,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,45,0.696053725893284,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,50,0.695262023970346,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,55,0.694143431554988,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,60,0.693707754955575,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,65,0.693167526875524,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,70,0.693020567157088,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,75,0.692596839178079,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,80,0.692139324859116,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,85,0.692976820272444,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,90,0.694653125970437,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,95,0.698997602389908,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Pixel,100,0.703686676518548,0.703686676518549
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,5,0.709755533402967,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,10,0.701590505426174,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,15,0.70310019187126,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,20,0.70183275141956,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,25,0.703437793280867,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,30,0.702921336812413,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,35,0.695216822894537,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,40,0.695157558557459,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,45,0.702851057019281,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,50,0.701655178458544,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,55,0.71422630728692,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,60,0.714672701223581,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,65,0.712441774962163,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,70,0.713628870382607,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,75,0.718460969736817,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,80,0.718051842258139,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,85,0.721594501803796,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,90,0.730600956997398,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,95,0.740361247938623,0.74521929834577
+high_contrast,LateralBoundary,0,AC,Phase Planarity Q,Block1mm,100,0.74521929834577,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,5,0.66005755264342,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,10,0.674638059471875,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,15,0.673609090694905,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,20,0.67008315314436,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,25,0.666452010409213,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,30,0.663173660785148,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,35,0.66118936125467,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,40,0.658128658788474,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,45,0.654512693274089,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,50,0.651663423998428,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,55,0.649347362182701,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,60,0.64803442869684,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,65,0.647431152416717,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,70,0.647581972906351,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,75,0.649788821541031,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,80,0.654789355558886,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,85,0.662627318626639,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,90,0.67138794899751,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,95,0.686680592558987,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Pixel,100,0.703686676518546,0.703686676518549
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,5,0.707876789039288,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,10,0.699605377049829,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,15,0.70059157774963,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,20,0.687521562214292,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,25,0.688298456854748,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,30,0.689000812668451,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,35,0.684754018880567,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,40,0.682756916896717,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,45,0.683023881774633,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,50,0.677190909179408,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,55,0.675055351907646,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,60,0.676595434424182,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,65,0.675686983260542,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,70,0.668493713297609,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,75,0.670869040979161,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,80,0.679876232224615,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,85,0.695927597636901,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,90,0.713927401822401,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,95,0.728977608394581,0.74521929834577
+high_contrast,LateralBoundary,0,AC,RMI-1D,Block1mm,100,0.74521929834577,0.74521929834577
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,5,1.72300073683577,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,10,1.71917333524465,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,15,1.70621937521453,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,20,1.69570760577718,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,25,1.68602056844382,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,30,1.68299454050256,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,35,1.68136643548264,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,40,1.67900915670909,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,45,1.67845001339441,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,50,1.67604896769249,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,55,1.67342104954113,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,60,1.67128918513918,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,65,1.67052501686803,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,70,1.66886861055165,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,75,1.66732069626074,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,80,1.66511064143264,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,85,1.66412141869237,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,90,1.66105796423533,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,95,1.65829483514393,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Pixel,100,1.65367187005933,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,5,1.73612080141533,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,10,1.713700189901,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,15,1.72241012432107,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,20,1.71024162241546,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,25,1.71301923973324,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,30,1.71272339713093,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,35,1.70012747220351,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,40,1.70313180170482,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,45,1.71257381200547,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,50,1.70699277248415,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,55,1.7033712618115,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,60,1.69710450622912,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,65,1.69203045126721,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,70,1.69102206058573,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,75,1.68707777858605,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,80,1.68695468501972,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,85,1.68260101549088,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,90,1.67928310907486,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,95,1.675750589068,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,Phase Planarity Q,Block1mm,100,1.67157452064538,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,5,1.54745245626885,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,10,1.54884702416038,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,15,1.52561500280752,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,20,1.51728594844561,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,25,1.52723218822877,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,30,1.53945301679207,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,35,1.55018028348212,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,40,1.56222324157819,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,45,1.57282591448568,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,50,1.58178118682908,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,55,1.59059353170697,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,60,1.59869776269106,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,65,1.60598222892618,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,70,1.61275570910555,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,75,1.61944464669222,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,80,1.62614155762868,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,85,1.63300783451005,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,90,1.63952983241655,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,95,1.64601232621709,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Pixel,100,1.65367187005933,1.65367187005933
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,5,1.40137061934929,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,10,1.43219437030536,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,15,1.50034311114225,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,20,1.53253729587147,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,25,1.55821439104333,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,30,1.58132292197983,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,35,1.59417990627331,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,40,1.60425174054718,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,45,1.61358319587167,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,50,1.61799780070063,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,55,1.62514585997781,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,60,1.63472508860225,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,65,1.64016949127659,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,70,1.64391587186577,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,75,1.64709000188439,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,80,1.65269530601896,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,85,1.65894862255843,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,90,1.66251178742817,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,95,1.66713850195437,1.67157452064538
+high_contrast,LateralBoundary,0.2,PG,RMI-1D,Block1mm,100,1.67157452064538,1.67157452064538
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,5,1.75760258378431,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,10,1.75326806594543,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,15,1.73726520391056,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,20,1.72512990927653,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,25,1.7142145315867,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,30,1.71131234588245,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,35,1.70968585459465,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,40,1.7072428274642,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,45,1.70670314964239,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,50,1.70421629261266,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,55,1.70150570372046,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,60,1.69937793254209,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,65,1.69874605204297,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,70,1.6971997951806,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,75,1.69579891410337,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,80,1.69366173762331,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,85,1.69283075370433,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,90,1.68989464546002,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,95,1.68758923167957,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Pixel,100,1.68308601571426,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,5,1.76839416809737,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,10,1.73797070881265,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,15,1.74525301975373,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,20,1.73353241723459,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,25,1.73582460483463,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,30,1.73656828251545,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,35,1.72303691420585,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,40,1.7260075784384,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,45,1.73648869845872,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,50,1.73070828459222,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,55,1.72881319219888,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,60,1.72294125571589,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,65,1.71780169693134,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,70,1.71725199586647,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,75,1.71413203974187,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,80,1.71446384188027,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,85,1.70999392065632,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,90,1.7073105343444,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,95,1.70406380142449,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,Phase Planarity Q,Block1mm,100,1.70024344979145,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,5,1.55790074327557,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,10,1.53894624009034,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,15,1.53844913601615,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,20,1.53534475921795,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,25,1.54465331878662,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,30,1.55856603330038,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,35,1.56988636869476,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,40,1.58191102809356,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,45,1.59325138936823,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,50,1.60278350137376,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,55,1.611796921289,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,60,1.62090954335218,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,65,1.62908146181004,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,70,1.63739189668828,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,75,1.64551678353759,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,80,1.65295924425393,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,85,1.65976598941234,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,90,1.66670299527106,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,95,1.67394481581838,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Pixel,100,1.68308601571426,1.68308601571426
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,5,1.42272840511885,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,10,1.45271691312415,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,15,1.51812857522707,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,20,1.55251980929264,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,25,1.57875617463887,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,30,1.59613281213144,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,35,1.60887929080017,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,40,1.62049448308442,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,45,1.63139981427769,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,50,1.63857440252145,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,55,1.64440972380135,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,60,1.6526728659244,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,65,1.66050326201309,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,70,1.66696249193245,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,75,1.67314291977231,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,80,1.67846009339961,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,85,1.68442325301364,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,90,1.68877517254384,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,95,1.69444127303812,1.70024344979145
+high_contrast,LateralBoundary,0.2,AC,RMI-1D,Block1mm,100,1.70024344979145,1.70024344979145

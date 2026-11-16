@@ -1,0 +1,3 @@
+Phantom,Method,GlobalRMSE_mps,InclusionRMSE_mps,BackgroundRMSE_mps,InclusionBias_mps,BackgroundBias_mps,CNR,DirectKDE_gCNR,ContrastRecovery,EdgeAccuracy_mm,EdgeSharpness_mps_per_mm,DetectedEdgePixels,GlobalPixels,InclusionPixels,BackgroundPixels,Frequency_Hz
+chaoran_baseline,Phase gradient,0.558616350669026,1.88090868138987,0.268853467775904,-1.88063615889849,0.11519161701381,1.44543773644968,0.927076514419923,0.150711584718167,NaN,NaN,0,380980,5374,330474,200
+chaoran_baseline,Spatial autocorrelation,0.55842524067638,1.87414687061248,0.274616201508077,-1.8739255004414,0.127222161870174,1.4234884444572,0.9324250823616,0.148447803271665,NaN,NaN,0,380980,5374,330474,200
