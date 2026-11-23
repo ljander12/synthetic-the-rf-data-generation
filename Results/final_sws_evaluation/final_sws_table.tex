@@ -1,0 +1,18 @@
+% Automatically generated from C:\Users\louis\Documents\GitHub\MasterOppgave\synthetic-the-rf-data-generation\Results\method_comparison\batch\batch_summary.csv
+% Requires booktabs and graphicx packages.
+\begin{table}[htbp]\centering\scriptsize
+\caption{Comparison of PG and AC using shared phantom-specific evaluation masks. RMSE in m/s; contrast recovery in percent.}
+\label{tab:final_sws_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrrrrrr}\toprule
+Phantom & Est. & Global RMSE & Incl. RMSE & Bg. RMSE & Incl. bias & Bg. bias & CNR & gCNR & CR [\%] & Edge acc. [mm] & Edge sharp. [m/s/mm] \\ \midrule
+chaoran baseline & PG & 0.559 & 1.881 & 0.269 & -1.881 & 0.115 & 1.445 & 0.927 & 15.07 & -- & -- \\ 
+chaoran baseline & AC & 0.558 & 1.874 & 0.275 & -1.874 & 0.127 & 1.423 & 0.932 & 14.84 & -- & -- \\ 
+low contrast & PG & 0.269 & 0.476 & 0.249 & -0.475 & 0.123 & 0.376 & 0.833 & 12.05 & -- & -- \\ 
+low contrast & AC & 0.273 & 0.462 & 0.257 & -0.461 & 0.136 & 0.381 & 0.843 & 12.28 & -- & -- \\ 
+high contrast & PG & 0.852 & 3.110 & 0.278 & -3.110 & 0.116 & 1.769 & 0.932 & 12.35 & 2.833 & 0.293 \\ 
+high contrast & AC & 0.851 & 3.109 & 0.284 & -3.108 & 0.127 & 1.727 & 0.935 & 12.09 & -- & -- \\ 
+large inclusions & PG & 1.158 & 0.694 & 1.182 & -0.102 & 1.127 & 1.448 & 0.690 & 47.69 & -- & -- \\ 
+large inclusions & AC & 1.177 & 0.622 & 1.216 & -0.035 & 1.164 & 1.614 & 0.739 & 48.95 & -- & -- \\ 
+\bottomrule\end{tabular}}
+\end{table}

@@ -1,0 +1,10 @@
+SWS COMPARISON - INTERPRETATION OF EXISTING RESULTS
+Input: C:\Users\louis\Documents\GitHub\MasterOppgave\synthetic-the-rf-data-generation\Results\method_comparison\batch\batch_summary.csv
+
+AC lower inclusion RMSE in 4 / 4 cases.
+PG lower background RMSE in 4 / 4 cases.
+Inclusion RMSE max: 3.1099 m/s in high_contrast (PG).
+Interpretation: No universal estimator winner follows from these cases.
+Distinguish reconstruction accuracy (RMSE/bias) from contrast separability (CNR/gCNR).
+NaN edge values denote unmeasurable edge metrics, not zero error.
+Causes of systematic bias require separate physical verification.
